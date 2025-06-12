@@ -1,0 +1,4 @@
+progress bar for super size object:paddle_internal/ERNIE-45-Turbo/model-00048-of-00121.safetensors
+Download: bos:/ernie45t/paddle_internal/ERNIE-45-Turbo/model-00048-of-00121.safetensors to /share/project/hcr/models/wenxinyiyan/paddle_internal/ERNIE-45-Turbo/model-00048-of-00121.safetensors
+time cost for single object:587038 ms
+[1] objects downloaded. [0] objects download failed
