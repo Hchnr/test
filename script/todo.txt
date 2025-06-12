@@ -1,6 +1,5 @@
 model-00003-of-00121.safetensors
 model-00007-of-00121.safetensors
-model-00021-of-00121.safetensors
 model-00024-of-00121.safetensors
 model-00026-of-00121.safetensors
 model-00028-of-00121.safetensors
@@ -19,9 +18,7 @@ model-00041-of-00121.safetensors
 model-00049-of-00121.safetensors
 model-00051-of-00121.safetensors
 model-00053-of-00121.safetensors
-model-00057-of-00121.safetensors
 model-00058-of-00121.safetensors
-model-00067-of-00121.safetensors
 model-00070-of-00121.safetensors
 model-00071-of-00121.safetensors
 model-00075-of-00121.safetensors
@@ -47,11 +44,9 @@ model-00099-of-00121.safetensors
 model-00102-of-00121.safetensors
 model-00103-of-00121.safetensors
 model-00105-of-00121.safetensors
-model-00106-of-00121.safetensors
 model-00107-of-00121.safetensors
 model-00108-of-00121.safetensors
 model-00110-of-00121.safetensors
 model-00112-of-00121.safetensors
 model-00115-of-00121.safetensors
 model-00117-of-00121.safetensors
-model-00120-of-00121.safetensors
