@@ -1,0 +1,411 @@
+INFO     2025-06-13 17:49:27,240 1555007 worker.py[line:155] ===============   Model Information   ==============
+INFO     2025-06-13 17:49:27,240 1555007 worker.py[line:157] model_dir           :      /share/project/hcr/models/wenxinyiyan/ernie34T-4l
+INFO     2025-06-13 17:49:27,240 1555007 worker.py[line:157] is_unified_ckpt     :      True
+INFO     2025-06-13 17:49:27,240 1555007 worker.py[line:157] dynamic_load_weight :      0
+INFO     2025-06-13 17:49:27,240 1555007 worker.py[line:157] architectures       :      ErnieForCausalLM
+INFO     2025-06-13 17:49:27,240 1555007 worker.py[line:157] bos_token_id        :      1
+INFO     2025-06-13 17:49:27,240 1555007 worker.py[line:157] eos_token_id        :      2
+INFO     2025-06-13 17:49:27,240 1555007 worker.py[line:157] hidden_act          :      silu
+INFO     2025-06-13 17:49:27,240 1555007 worker.py[line:157] hidden_size         :      8192
+INFO     2025-06-13 17:49:27,240 1555007 worker.py[line:157] intermediate_size   :      28672
+INFO     2025-06-13 17:49:27,240 1555007 worker.py[line:157] initializer_range   :      0.00482174
+INFO     2025-06-13 17:49:27,240 1555007 worker.py[line:157] max_sequence_length :      131072
+INFO     2025-06-13 17:49:27,240 1555007 worker.py[line:157] max_position_embeddings:      131072
+INFO     2025-06-13 17:49:27,240 1555007 worker.py[line:157] model_type          :      ernie
+INFO     2025-06-13 17:49:27,240 1555007 worker.py[line:157] model_name          :      chat
+INFO     2025-06-13 17:49:27,240 1555007 worker.py[line:157] num_attention_heads :      64
+INFO     2025-06-13 17:49:27,240 1555007 worker.py[line:157] num_key_value_heads :      8
+INFO     2025-06-13 17:49:27,240 1555007 worker.py[line:157] pad_token_id        :      0
+INFO     2025-06-13 17:49:27,240 1555007 worker.py[line:157] rms_norm_eps        :      1e-05
+INFO     2025-06-13 17:49:27,240 1555007 worker.py[line:157] use_cache           :      False
+INFO     2025-06-13 17:49:27,240 1555007 worker.py[line:157] vocab_size          :      103424
+INFO     2025-06-13 17:49:27,240 1555007 worker.py[line:157] rope_theta          :      500000
+INFO     2025-06-13 17:49:27,240 1555007 worker.py[line:157] use_rmsnorm         :      True
+INFO     2025-06-13 17:49:27,240 1555007 worker.py[line:157] fuse_rms_norm       :      True
+INFO     2025-06-13 17:49:27,240 1555007 worker.py[line:157] use_bias            :      False
+INFO     2025-06-13 17:49:27,240 1555007 worker.py[line:157] use_fast_ln         :      True
+INFO     2025-06-13 17:49:27,240 1555007 worker.py[line:157] fuse_linear         :      False
+INFO     2025-06-13 17:49:27,241 1555007 worker.py[line:157] fuse_rope           :      True
+INFO     2025-06-13 17:49:27,241 1555007 worker.py[line:157] fuse_swiglu         :      True
+INFO     2025-06-13 17:49:27,241 1555007 worker.py[line:157] fuse_gate_detach_matmul:      True
+INFO     2025-06-13 17:49:27,241 1555007 worker.py[line:157] moe_num_experts     :      64
+INFO     2025-06-13 17:49:27,241 1555007 worker.py[line:157] moe_layer_start_index:      3
+INFO     2025-06-13 17:49:27,241 1555007 worker.py[line:157] moe_intermediate_size:      3584
+INFO     2025-06-13 17:49:27,241 1555007 worker.py[line:157] moe_capacity        :      [64, 64, 64]
+INFO     2025-06-13 17:49:27,241 1555007 worker.py[line:157] moe_gate            :      top2_fused
+INFO     2025-06-13 17:49:27,241 1555007 worker.py[line:157] moe_k               :      8
+INFO     2025-06-13 17:49:27,241 1555007 worker.py[line:157] moe_aux_loss_lambda :      1e-05
+INFO     2025-06-13 17:49:27,241 1555007 worker.py[line:157] moe_group_orthogonal_loss:      True
+INFO     2025-06-13 17:49:27,241 1555007 worker.py[line:157] moe_orthogonal_loss_lambda:      0.0
+INFO     2025-06-13 17:49:27,241 1555007 worker.py[line:157] moe_z_loss_lambda   :      0.0
+INFO     2025-06-13 17:49:27,241 1555007 worker.py[line:157] moe_layer_interval  :      1
+INFO     2025-06-13 17:49:27,241 1555007 worker.py[line:157] moe_use_aux_free    :      True
+INFO     2025-06-13 17:49:27,241 1555007 worker.py[line:157] model_name_or_path  :      /share/project/hcr/models/wenxinyiyan/ernie34T-4l
+INFO     2025-06-13 17:49:27,241 1555007 worker.py[line:157] num_layers          :      4
+INFO     2025-06-13 17:49:27,241 1555007 worker.py[line:157] mla_use_absorb      :      False
+INFO     2025-06-13 17:49:27,241 1555007 worker.py[line:157] max_stop_seqs_num   :      5
+INFO     2025-06-13 17:49:27,241 1555007 worker.py[line:157] stop_seqs_max_len   :      8
+INFO     2025-06-13 17:49:27,241 1555007 worker.py[line:157] ellm_dynamic_quant_type:      default
+INFO     2025-06-13 17:49:27,241 1555007 worker.py[line:157] ellm_dynamic_use_stop_seqs:      False
+INFO     2025-06-13 17:49:27,241 1555007 worker.py[line:157] compression_ratio   :      1.0
+INFO     2025-06-13 17:49:27,241 1555007 worker.py[line:158] =============== Service Configuration ===============
+INFO     2025-06-13 17:49:27,241 1555007 worker.py[line:160] model_name_or_path  :      /share/project/hcr/models/wenxinyiyan/ernie34T-4l
+INFO     2025-06-13 17:49:27,241 1555007 worker.py[line:160] max_num_seqs        :      8
+INFO     2025-06-13 17:49:27,241 1555007 worker.py[line:160] total_block_num     :      136
+INFO     2025-06-13 17:49:27,241 1555007 worker.py[line:160] block_size          :      64
+INFO     2025-06-13 17:49:27,241 1555007 worker.py[line:160] engine_worker_queue_port:      8002
+INFO     2025-06-13 17:49:27,241 1555007 worker.py[line:160] max_model_len       :      8192
+INFO     2025-06-13 17:49:27,241 1555007 worker.py[line:160] device_ids          :      0
+INFO     2025-06-13 17:49:27,241 1555007 worker.py[line:160] dtype               :      bfloat16
+INFO     2025-06-13 17:49:27,241 1555007 worker.py[line:160] enc_dec_block_num   :      2
+INFO     2025-06-13 17:49:27,241 1555007 worker.py[line:160] kv_cache_ratio      :      0.75
+INFO     2025-06-13 17:49:27,241 1555007 worker.py[line:160] first_token_id      :      1
+INFO     2025-06-13 17:49:27,241 1555007 worker.py[line:160] gpu_memory_utilization:      0.2
+INFO     2025-06-13 17:49:27,241 1555007 worker.py[line:160] engine_pid          :      1554607
+INFO     2025-06-13 17:49:27,241 1555007 worker.py[line:160] do_profile          :      1
+INFO     2025-06-13 17:49:27,241 1555007 worker.py[line:160] dynamic_load_weight :      0
+INFO     2025-06-13 17:49:27,241 1555007 worker.py[line:160] pad_token_id        :      0
+INFO     2025-06-13 17:49:27,241 1555007 worker.py[line:160] eos_tokens_lens     :      1
+INFO     2025-06-13 17:49:27,242 1555007 worker.py[line:160] enable_chunked_prefill:      False
+INFO     2025-06-13 17:49:27,242 1555007 worker.py[line:160] speculate_method    :      None
+INFO     2025-06-13 17:49:27,242 1555007 worker.py[line:160] attention_backend   :      APPEND_ATTN
+INFO     2025-06-13 17:49:27,242 1555007 worker.py[line:160] speculate_max_draft_tokens:      1
+INFO     2025-06-13 17:49:27,242 1555007 worker.py[line:160] max_num_batched_tokens:      8192
+INFO     2025-06-13 17:49:27,242 1555007 worker.py[line:161] =====================================================
+
+INFO     2025-06-13 17:49:59,441 1555007 activation.py[line:75] ============avtivation debug start=================
+INFO     2025-06-13 17:49:59,441 1555007 activation.py[line:76] act_method: swiglu
+INFO     2025-06-13 17:49:59,441 1555007 activation.py[line:77] ============avtivation debug end=================
+INFO     2025-06-13 17:49:59,444 1555007 activation.py[line:75] ============avtivation debug start=================
+INFO     2025-06-13 17:49:59,444 1555007 activation.py[line:76] act_method: swiglu
+INFO     2025-06-13 17:49:59,444 1555007 activation.py[line:77] ============avtivation debug end=================
+INFO     2025-06-13 17:49:59,446 1555007 activation.py[line:75] ============avtivation debug start=================
+INFO     2025-06-13 17:49:59,446 1555007 activation.py[line:76] act_method: swiglu
+INFO     2025-06-13 17:49:59,446 1555007 activation.py[line:77] ============avtivation debug end=================
+INFO     2025-06-13 17:50:08,575 1555007 worker.py[line:347] before activate gpu memory: 8.454826593399048 GiB.
+INFO     2025-06-13 17:50:08,605 1555007 worker.py[line:360] used gpu memory: 42.7982177734375 GiB.
+INFO     2025-06-13 17:52:02,321 1555007 model_runner_inference.py[line:431] in ModelRunner.generate() hidden_states: [8, 8192], dtype: paddle.bfloat16
+INFO     2025-06-13 17:52:02,325 1555007 model_runner_inference.py[line:432] in ModelRunner.generate() hidden_states: Tensor(shape=[8, 8192], dtype=bfloat16, place=Place(gpu:0), stop_gradient=True,
+       [[-0.02197266,  0.00341797,  0.00017738, ...,  0.00436401,
+         -0.05688477, -0.00219727],
+        [-0.02197266,  0.00341797,  0.00017738, ...,  0.00436401,
+         -0.05688477, -0.00219727],
+        [-0.02197266,  0.00341797,  0.00017738, ...,  0.00436401,
+         -0.05688477, -0.00219727],
+        ...,
+        [-0.02197266,  0.00341797,  0.00017738, ...,  0.00436401,
+         -0.05688477, -0.00219727],
+        [-0.02197266,  0.00341797,  0.00017738, ...,  0.00436401,
+         -0.05688477, -0.00219727],
+        [-0.02197266,  0.00341797,  0.00017738, ...,  0.00436401,
+         -0.05688477, -0.00219727]])
+INFO     2025-06-13 17:52:02,376 1555007 model_runner_inference.py[line:434] in ModelRunner.generate() logits: [8, 103424], dtype: paddle.float32
+INFO     2025-06-13 17:52:02,411 1555007 model_runner_inference.py[line:435] in ModelRunner.generate() logits: Tensor(shape=[8, 103424], dtype=float32, place=Place(gpu:0), stop_gradient=False,
+       [[-0.83203125, -0.94140625, -1.15625000, ..., -inf.      ,
+         -inf.      , -inf.      ],
+        [-0.83203125, -0.94140625, -1.15625000, ..., -inf.      ,
+         -inf.      , -inf.      ],
+        [-0.83203125, -0.94140625, -1.15625000, ..., -inf.      ,
+         -inf.      , -inf.      ],
+        ...,
+        [-0.83203125, -0.94140625, -1.15625000, ..., -inf.      ,
+         -inf.      , -inf.      ],
+        [-0.83203125, -0.94140625, -1.15625000, ..., -inf.      ,
+         -inf.      , -inf.      ],
+        [-0.83203125, -0.94140625, -1.15625000, ..., -inf.      ,
+         -inf.      , -inf.      ]])
+INFO     2025-06-13 17:52:03,362 1555007 model_runner_inference.py[line:431] in ModelRunner.generate() hidden_states: [8, 8192], dtype: paddle.bfloat16
+INFO     2025-06-13 17:52:03,366 1555007 model_runner_inference.py[line:432] in ModelRunner.generate() hidden_states: Tensor(shape=[8, 8192], dtype=bfloat16, place=Place(gpu:0), stop_gradient=True,
+       [[-2.20312500, -0.29296875,  0.03247070, ..., -0.24414062,
+         -0.16015625, -0.17285156],
+        [-2.20312500, -0.29296875,  0.03247070, ..., -0.24414062,
+         -0.16015625, -0.17285156],
+        [-2.20312500, -0.29296875,  0.03247070, ..., -0.24414062,
+         -0.16015625, -0.17285156],
+        ...,
+        [-2.20312500, -0.29296875,  0.03247070, ..., -0.24414062,
+         -0.16015625, -0.17285156],
+        [-2.20312500, -0.29296875,  0.03247070, ..., -0.24414062,
+         -0.16015625, -0.17285156],
+        [-2.20312500, -0.29296875,  0.03247070, ..., -0.24414062,
+         -0.16015625, -0.17285156]])
+INFO     2025-06-13 17:52:03,366 1555007 model_runner_inference.py[line:434] in ModelRunner.generate() logits: [8, 103424], dtype: paddle.float32
+INFO     2025-06-13 17:52:03,400 1555007 model_runner_inference.py[line:435] in ModelRunner.generate() logits: Tensor(shape=[8, 103424], dtype=float32, place=Place(gpu:0), stop_gradient=False,
+       [[-0.74609375, -1.09375000, -1.02343750, ..., -inf.      ,
+         -inf.      , -inf.      ],
+        [-0.74609375, -1.09375000, -1.02343750, ..., -inf.      ,
+         -inf.      , -inf.      ],
+        [-0.74609375, -1.09375000, -1.02343750, ..., -inf.      ,
+         -inf.      , -inf.      ],
+        ...,
+        [-0.74609375, -1.09375000, -1.02343750, ..., -inf.      ,
+         -inf.      , -inf.      ],
+        [-0.74609375, -1.09375000, -1.02343750, ..., -inf.      ,
+         -inf.      , -inf.      ],
+        [-0.74609375, -1.09375000, -1.02343750, ..., -inf.      ,
+         -inf.      , -inf.      ]])
+INFO     2025-06-13 17:52:03,405 1555007 model_runner_inference.py[line:431] in ModelRunner.generate() hidden_states: [8, 8192], dtype: paddle.bfloat16
+INFO     2025-06-13 17:52:03,408 1555007 model_runner_inference.py[line:432] in ModelRunner.generate() hidden_states: Tensor(shape=[8, 8192], dtype=bfloat16, place=Place(gpu:0), stop_gradient=True,
+       [[-2.60937500, -0.28906250, -0.05737305, ..., -0.12695312,
+          0.16406250, -0.06787109],
+        [-2.60937500, -0.28906250, -0.05737305, ..., -0.12695312,
+          0.16406250, -0.06787109],
+        [-2.60937500, -0.28906250, -0.05737305, ..., -0.12695312,
+          0.16406250, -0.06787109],
+        ...,
+        [-2.60937500, -0.28906250, -0.05737305, ..., -0.12695312,
+          0.16406250, -0.06787109],
+        [-2.60937500, -0.28906250, -0.05737305, ..., -0.12695312,
+          0.16406250, -0.06787109],
+        [-2.60937500, -0.28906250, -0.05737305, ..., -0.12695312,
+          0.16406250, -0.06787109]])
+INFO     2025-06-13 17:52:03,409 1555007 model_runner_inference.py[line:434] in ModelRunner.generate() logits: [8, 103424], dtype: paddle.float32
+INFO     2025-06-13 17:52:03,441 1555007 model_runner_inference.py[line:435] in ModelRunner.generate() logits: Tensor(shape=[8, 103424], dtype=float32, place=Place(gpu:0), stop_gradient=False,
+       [[-0.58593750, -0.79296875, -1.08593750, ..., -inf.      ,
+         -inf.      , -inf.      ],
+        [-0.58593750, -0.79296875, -1.08593750, ..., -inf.      ,
+         -inf.      , -inf.      ],
+        [-0.58593750, -0.79296875, -1.08593750, ..., -inf.      ,
+         -inf.      , -inf.      ],
+        ...,
+        [-0.58593750, -0.79296875, -1.08593750, ..., -inf.      ,
+         -inf.      , -inf.      ],
+        [-0.58593750, -0.79296875, -1.08593750, ..., -inf.      ,
+         -inf.      , -inf.      ],
+        [-0.58593750, -0.79296875, -1.08593750, ..., -inf.      ,
+         -inf.      , -inf.      ]])
+INFO     2025-06-13 17:52:03,446 1555007 model_runner_inference.py[line:431] in ModelRunner.generate() hidden_states: [8, 8192], dtype: paddle.bfloat16
+INFO     2025-06-13 17:52:03,449 1555007 model_runner_inference.py[line:432] in ModelRunner.generate() hidden_states: Tensor(shape=[8, 8192], dtype=bfloat16, place=Place(gpu:0), stop_gradient=True,
+       [[-3.71875000, -0.45507812,  0.25000000, ..., -0.24218750,
+         -0.13183594, -0.19824219],
+        [-3.71875000, -0.45507812,  0.25000000, ..., -0.24218750,
+         -0.13183594, -0.19824219],
+        [-3.71875000, -0.45507812,  0.25000000, ..., -0.24218750,
+         -0.13183594, -0.19824219],
+        ...,
+        [-3.71875000, -0.45507812,  0.25000000, ..., -0.24218750,
+         -0.13183594, -0.19824219],
+        [-3.71875000, -0.45507812,  0.25000000, ..., -0.24218750,
+         -0.13183594, -0.19824219],
+        [-3.71875000, -0.45507812,  0.25000000, ..., -0.24218750,
+         -0.13183594, -0.19824219]])
+INFO     2025-06-13 17:52:03,449 1555007 model_runner_inference.py[line:434] in ModelRunner.generate() logits: [8, 103424], dtype: paddle.float32
+INFO     2025-06-13 17:52:03,481 1555007 model_runner_inference.py[line:435] in ModelRunner.generate() logits: Tensor(shape=[8, 103424], dtype=float32, place=Place(gpu:0), stop_gradient=False,
+       [[-0.53906250, -0.94531250, -0.69140625, ..., -inf.      ,
+         -inf.      , -inf.      ],
+        [-0.53906250, -0.94531250, -0.69140625, ..., -inf.      ,
+         -inf.      , -inf.      ],
+        [-0.53906250, -0.94531250, -0.69140625, ..., -inf.      ,
+         -inf.      , -inf.      ],
+        ...,
+        [-0.53906250, -0.94531250, -0.69140625, ..., -inf.      ,
+         -inf.      , -inf.      ],
+        [-0.53906250, -0.94531250, -0.69140625, ..., -inf.      ,
+         -inf.      , -inf.      ],
+        [-0.53906250, -0.94531250, -0.69140625, ..., -inf.      ,
+         -inf.      , -inf.      ]])
+INFO     2025-06-13 17:52:03,486 1555007 model_runner_inference.py[line:431] in ModelRunner.generate() hidden_states: [8, 8192], dtype: paddle.bfloat16
+INFO     2025-06-13 17:52:03,488 1555007 model_runner_inference.py[line:432] in ModelRunner.generate() hidden_states: Tensor(shape=[8, 8192], dtype=bfloat16, place=Place(gpu:0), stop_gradient=True,
+       [[-8.18750000, -1.        , -0.07177734, ..., -0.83203125,
+         -0.07714844,  0.49609375],
+        [-8.18750000, -1.        , -0.07177734, ..., -0.83203125,
+         -0.07714844,  0.49609375],
+        [-8.18750000, -1.        , -0.07177734, ..., -0.83203125,
+         -0.07714844,  0.49609375],
+        ...,
+        [-8.18750000, -1.        , -0.07177734, ..., -0.83203125,
+         -0.07714844,  0.49609375],
+        [-8.18750000, -1.        , -0.07177734, ..., -0.83203125,
+         -0.07714844,  0.49609375],
+        [-8.18750000, -1.        , -0.07177734, ..., -0.83203125,
+         -0.07714844,  0.49609375]])
+INFO     2025-06-13 17:52:03,490 1555007 model_runner_inference.py[line:434] in ModelRunner.generate() logits: [8, 103424], dtype: paddle.float32
+INFO     2025-06-13 17:52:03,522 1555007 model_runner_inference.py[line:435] in ModelRunner.generate() logits: Tensor(shape=[8, 103424], dtype=float32, place=Place(gpu:0), stop_gradient=False,
+       [[-1.16406250, -1.75000000,  1.62500000, ..., -inf.      ,
+         -inf.      , -inf.      ],
+        [-1.16406250, -1.75000000,  1.62500000, ..., -inf.      ,
+         -inf.      , -inf.      ],
+        [-1.16406250, -1.75000000,  1.62500000, ..., -inf.      ,
+         -inf.      , -inf.      ],
+        ...,
+        [-1.16406250, -1.75000000,  1.62500000, ..., -inf.      ,
+         -inf.      , -inf.      ],
+        [-1.16406250, -1.75000000,  1.62500000, ..., -inf.      ,
+         -inf.      , -inf.      ],
+        [-1.16406250, -1.75000000,  1.62500000, ..., -inf.      ,
+         -inf.      , -inf.      ]])
+INFO     2025-06-13 17:52:03,527 1555007 model_runner_inference.py[line:431] in ModelRunner.generate() hidden_states: [8, 8192], dtype: paddle.bfloat16
+INFO     2025-06-13 17:52:03,530 1555007 model_runner_inference.py[line:432] in ModelRunner.generate() hidden_states: Tensor(shape=[8, 8192], dtype=bfloat16, place=Place(gpu:0), stop_gradient=True,
+       [[-2.18750000, -0.04833984,  0.17480469, ...,  0.15136719,
+          0.00518799, -0.01495361],
+        [-2.18750000, -0.04833984,  0.17480469, ...,  0.15136719,
+          0.00518799, -0.01495361],
+        [-2.18750000, -0.04833984,  0.17480469, ...,  0.15136719,
+          0.00518799, -0.01495361],
+        ...,
+        [-2.18750000, -0.04833984,  0.17480469, ...,  0.15136719,
+          0.00518799, -0.01495361],
+        [-2.18750000, -0.04833984,  0.17480469, ...,  0.15136719,
+          0.00518799, -0.01495361],
+        [-2.18750000, -0.04833984,  0.17480469, ...,  0.15136719,
+          0.00518799, -0.01495361]])
+INFO     2025-06-13 17:52:03,530 1555007 model_runner_inference.py[line:434] in ModelRunner.generate() logits: [8, 103424], dtype: paddle.float32
+INFO     2025-06-13 17:52:03,562 1555007 model_runner_inference.py[line:435] in ModelRunner.generate() logits: Tensor(shape=[8, 103424], dtype=float32, place=Place(gpu:0), stop_gradient=False,
+       [[-0.62500000, -0.66015625, -0.50000000, ..., -inf.      ,
+         -inf.      , -inf.      ],
+        [-0.62500000, -0.66015625, -0.50000000, ..., -inf.      ,
+         -inf.      , -inf.      ],
+        [-0.62500000, -0.66015625, -0.50000000, ..., -inf.      ,
+         -inf.      , -inf.      ],
+        ...,
+        [-0.62500000, -0.66015625, -0.50000000, ..., -inf.      ,
+         -inf.      , -inf.      ],
+        [-0.62500000, -0.66015625, -0.50000000, ..., -inf.      ,
+         -inf.      , -inf.      ],
+        [-0.62500000, -0.66015625, -0.50000000, ..., -inf.      ,
+         -inf.      , -inf.      ]])
+INFO     2025-06-13 17:52:03,567 1555007 model_runner_inference.py[line:431] in ModelRunner.generate() hidden_states: [8, 8192], dtype: paddle.bfloat16
+INFO     2025-06-13 17:52:03,570 1555007 model_runner_inference.py[line:432] in ModelRunner.generate() hidden_states: Tensor(shape=[8, 8192], dtype=bfloat16, place=Place(gpu:0), stop_gradient=True,
+       [[-1.36718750, -0.09960938,  0.04858398, ..., -0.11669922,
+         -0.02050781, -0.11718750],
+        [-1.36718750, -0.09960938,  0.04858398, ..., -0.11669922,
+         -0.02050781, -0.11718750],
+        [-1.36718750, -0.09960938,  0.04858398, ..., -0.11669922,
+         -0.02050781, -0.11718750],
+        ...,
+        [-1.36718750, -0.09960938,  0.04858398, ..., -0.11669922,
+         -0.02050781, -0.11718750],
+        [-1.36718750, -0.09960938,  0.04858398, ..., -0.11669922,
+         -0.02050781, -0.11718750],
+        [-1.36718750, -0.09960938,  0.04858398, ..., -0.11669922,
+         -0.02050781, -0.11718750]])
+INFO     2025-06-13 17:52:03,570 1555007 model_runner_inference.py[line:434] in ModelRunner.generate() logits: [8, 103424], dtype: paddle.float32
+INFO     2025-06-13 17:52:03,603 1555007 model_runner_inference.py[line:435] in ModelRunner.generate() logits: Tensor(shape=[8, 103424], dtype=float32, place=Place(gpu:0), stop_gradient=False,
+       [[-0.82812500, -1.04687500, -0.98437500, ..., -inf.      ,
+         -inf.      , -inf.      ],
+        [-0.82812500, -1.04687500, -0.98437500, ..., -inf.      ,
+         -inf.      , -inf.      ],
+        [-0.82812500, -1.04687500, -0.98437500, ..., -inf.      ,
+         -inf.      , -inf.      ],
+        ...,
+        [-0.82812500, -1.04687500, -0.98437500, ..., -inf.      ,
+         -inf.      , -inf.      ],
+        [-0.82812500, -1.04687500, -0.98437500, ..., -inf.      ,
+         -inf.      , -inf.      ],
+        [-0.82812500, -1.04687500, -0.98437500, ..., -inf.      ,
+         -inf.      , -inf.      ]])
+INFO     2025-06-13 17:52:03,608 1555007 model_runner_inference.py[line:431] in ModelRunner.generate() hidden_states: [8, 8192], dtype: paddle.bfloat16
+INFO     2025-06-13 17:52:03,611 1555007 model_runner_inference.py[line:432] in ModelRunner.generate() hidden_states: Tensor(shape=[8, 8192], dtype=bfloat16, place=Place(gpu:0), stop_gradient=True,
+       [[-1.90625000, -0.25585938,  0.01513672, ..., -0.04248047,
+         -0.07031250, -0.15527344],
+        [-1.90625000, -0.25585938,  0.01513672, ..., -0.04248047,
+         -0.07031250, -0.15527344],
+        [-1.90625000, -0.25585938,  0.01513672, ..., -0.04248047,
+         -0.07031250, -0.15527344],
+        ...,
+        [-1.90625000, -0.25585938,  0.01513672, ..., -0.04248047,
+         -0.07031250, -0.15527344],
+        [-1.90625000, -0.25585938,  0.01513672, ..., -0.04248047,
+         -0.07031250, -0.15527344],
+        [-1.90625000, -0.25585938,  0.01513672, ..., -0.04248047,
+         -0.07031250, -0.15527344]])
+INFO     2025-06-13 17:52:03,611 1555007 model_runner_inference.py[line:434] in ModelRunner.generate() logits: [8, 103424], dtype: paddle.float32
+INFO     2025-06-13 17:52:03,645 1555007 model_runner_inference.py[line:435] in ModelRunner.generate() logits: Tensor(shape=[8, 103424], dtype=float32, place=Place(gpu:0), stop_gradient=False,
+       [[-0.78906250, -1.08593750, -0.92187500, ..., -inf.      ,
+         -inf.      , -inf.      ],
+        [-0.78906250, -1.08593750, -0.92187500, ..., -inf.      ,
+         -inf.      , -inf.      ],
+        [-0.78906250, -1.08593750, -0.92187500, ..., -inf.      ,
+         -inf.      , -inf.      ],
+        ...,
+        [-0.78906250, -1.08593750, -0.92187500, ..., -inf.      ,
+         -inf.      , -inf.      ],
+        [-0.78906250, -1.08593750, -0.92187500, ..., -inf.      ,
+         -inf.      , -inf.      ],
+        [-0.78906250, -1.08593750, -0.92187500, ..., -inf.      ,
+         -inf.      , -inf.      ]])
+INFO     2025-06-13 17:52:03,649 1555007 model_runner_inference.py[line:431] in ModelRunner.generate() hidden_states: [8, 8192], dtype: paddle.bfloat16
+INFO     2025-06-13 17:52:03,652 1555007 model_runner_inference.py[line:432] in ModelRunner.generate() hidden_states: Tensor(shape=[8, 8192], dtype=bfloat16, place=Place(gpu:0), stop_gradient=True,
+       [[-2.92187500, -0.31054688, -0.13378906, ..., -0.11425781,
+          0.21093750, -0.07128906],
+        [-2.92187500, -0.31054688, -0.13378906, ..., -0.11425781,
+          0.21093750, -0.07128906],
+        [-2.92187500, -0.31054688, -0.13378906, ..., -0.11425781,
+          0.21093750, -0.07128906],
+        ...,
+        [-2.92187500, -0.31054688, -0.13378906, ..., -0.11425781,
+          0.21093750, -0.07128906],
+        [-2.92187500, -0.31054688, -0.13378906, ..., -0.11425781,
+          0.21093750, -0.07128906],
+        [-2.92187500, -0.31054688, -0.13378906, ..., -0.11425781,
+          0.21093750, -0.07128906]])
+INFO     2025-06-13 17:52:03,653 1555007 model_runner_inference.py[line:434] in ModelRunner.generate() logits: [8, 103424], dtype: paddle.float32
+INFO     2025-06-13 17:52:03,686 1555007 model_runner_inference.py[line:435] in ModelRunner.generate() logits: Tensor(shape=[8, 103424], dtype=float32, place=Place(gpu:0), stop_gradient=False,
+       [[-0.53125000, -0.71484375, -0.84375000, ..., -inf.      ,
+         -inf.      , -inf.      ],
+        [-0.53125000, -0.71484375, -0.84375000, ..., -inf.      ,
+         -inf.      , -inf.      ],
+        [-0.53125000, -0.71484375, -0.84375000, ..., -inf.      ,
+         -inf.      , -inf.      ],
+        ...,
+        [-0.53125000, -0.71484375, -0.84375000, ..., -inf.      ,
+         -inf.      , -inf.      ],
+        [-0.53125000, -0.71484375, -0.84375000, ..., -inf.      ,
+         -inf.      , -inf.      ],
+        [-0.53125000, -0.71484375, -0.84375000, ..., -inf.      ,
+         -inf.      , -inf.      ]])
+INFO     2025-06-13 17:52:03,691 1555007 model_runner_inference.py[line:431] in ModelRunner.generate() hidden_states: [8, 8192], dtype: paddle.bfloat16
+INFO     2025-06-13 17:52:03,694 1555007 model_runner_inference.py[line:432] in ModelRunner.generate() hidden_states: Tensor(shape=[8, 8192], dtype=bfloat16, place=Place(gpu:0), stop_gradient=True,
+       [[-4.03125000, -0.41601562,  0.25781250, ..., -0.24609375,
+         -0.09765625, -0.28125000],
+        [-4.03125000, -0.41601562,  0.25781250, ..., -0.24609375,
+         -0.09765625, -0.28125000],
+        [-4.03125000, -0.41601562,  0.25781250, ..., -0.24609375,
+         -0.09765625, -0.28125000],
+        ...,
+        [-4.03125000, -0.41601562,  0.25781250, ..., -0.24609375,
+         -0.09765625, -0.28125000],
+        [-4.03125000, -0.41601562,  0.25781250, ..., -0.24609375,
+         -0.09765625, -0.28125000],
+        [-4.03125000, -0.41601562,  0.25781250, ..., -0.24609375,
+         -0.09765625, -0.28125000]])
+INFO     2025-06-13 17:52:03,694 1555007 model_runner_inference.py[line:434] in ModelRunner.generate() logits: [8, 103424], dtype: paddle.float32
+INFO     2025-06-13 17:52:03,727 1555007 model_runner_inference.py[line:435] in ModelRunner.generate() logits: Tensor(shape=[8, 103424], dtype=float32, place=Place(gpu:0), stop_gradient=False,
+       [[-0.49218750, -0.91015625, -0.48437500, ..., -inf.      ,
+         -inf.      , -inf.      ],
+        [-0.49218750, -0.91015625, -0.48437500, ..., -inf.      ,
+         -inf.      , -inf.      ],
+        [-0.49218750, -0.91015625, -0.48437500, ..., -inf.      ,
+         -inf.      , -inf.      ],
+        ...,
+        [-0.49218750, -0.91015625, -0.48437500, ..., -inf.      ,
+         -inf.      , -inf.      ],
+        [-0.49218750, -0.91015625, -0.48437500, ..., -inf.      ,
+         -inf.      , -inf.      ],
+        [-0.49218750, -0.91015625, -0.48437500, ..., -inf.      ,
+         -inf.      , -inf.      ]])
+INFO     2025-06-13 17:52:03,729 1555007 worker.py[line:365] current max peak gpu memory: 24.09083366394043 GiB.
+INFO     2025-06-13 17:52:03,729 1555007 worker.py[line:369] each kv cache block takes 0.0009765625 GiB.
+INFO     2025-06-13 17:52:03,729 1555007 worker.py[line:371] used cache gpu memory: 0.1328125 GiB.
+INFO     2025-06-13 17:52:03,729 1555007 worker.py[line:401] Memory profiling takes 115.15 seconds
+the current instance can use total_gpu_memory (80.00GiB) x gpu_memory_utilization (0.2) = 16.00GiB
+model weights take 42.67GiB; Paddle activation peak memory takes 15.64GiB; the rest of the memory reserved for KV Cache is -42.30GiB.
+INFO     2025-06-13 17:52:03,729 1555007 worker.py[line:418] 136 GPU KV blocks can be allocated.
+INFO     2025-06-13 17:52:04,667 1555007 worker.py[line:294] Rank: 0 Detected new requests.
+INFO     2025-06-13 17:52:04,675 1555007 worker.py[line:306] Rank: 0, num_running_requests: 1, num_insert_requests: 1
+INFO     2025-06-13 17:52:07,135 1555007 model_runner_inference.py[line:431] in ModelRunner.generate() hidden_states: [1, 8192], dtype: paddle.bfloat16
+INFO     2025-06-13 17:52:07,137 1555007 model_runner_inference.py[line:432] in ModelRunner.generate() hidden_states: Tensor(shape=[1, 8192], dtype=bfloat16, place=Place(gpu:0), stop_gradient=True,
+       [[-13.31250000,  0.17968750 , -0.08593750 , ..., -0.23046875 ,
+         -0.33007812 ,  0.03369141 ]])
+INFO     2025-06-13 17:52:07,138 1555007 model_runner_inference.py[line:434] in ModelRunner.generate() logits: [1, 103424], dtype: paddle.float32
+INFO     2025-06-13 17:52:07,145 1555007 model_runner_inference.py[line:435] in ModelRunner.generate() logits: Tensor(shape=[1, 103424], dtype=float32, place=Place(gpu:0), stop_gradient=False,
+       [[-0.07421875,  0.07519531, -0.08837891, ..., -inf.      ,
+         -inf.      , -inf.      ]])
+INFO     2025-06-13 17:52:07,607 1555007 model_runner_inference.py[line:431] in ModelRunner.generate() hidden_states: [1, 8192], dtype: paddle.bfloat16
+INFO     2025-06-13 17:52:07,608 1555007 model_runner_inference.py[line:432] in ModelRunner.generate() hidden_states: Tensor(shape=[1, 8192], dtype=bfloat16, place=Place(gpu:0), stop_gradient=True,
+       [[-10.       ,  0.61328125, -0.11035156, ..., -0.18261719,
+          0.20996094, -0.11865234]])
+INFO     2025-06-13 17:52:07,608 1555007 model_runner_inference.py[line:434] in ModelRunner.generate() logits: [1, 103424], dtype: paddle.float32
+INFO     2025-06-13 17:52:07,615 1555007 model_runner_inference.py[line:435] in ModelRunner.generate() logits: Tensor(shape=[1, 103424], dtype=float32, place=Place(gpu:0), stop_gradient=False,
+       [[ 0.29882812, -0.33789062,  1.08593750, ..., -inf.      ,
+         -inf.      , -inf.      ]])

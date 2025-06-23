@@ -1,0 +1,7 @@
+INFO     2025-06-13 17:49:20,196 1554607 ernie_processor.py[line:47] model_name_or_path: /share/project/hcr/models/wenxinyiyan/ernie34T-4l
+INFO     2025-06-13 17:49:20,200 1554607 ernie_processor.py[line:56] Thinking mode is False
+INFO     2025-06-13 17:49:21,320 1554607 ernie_processor.py[line:59] tokenizer information: bos_token is <s>                                    1,                                    eos_token is </s>, 2 
+DEBUG    2025-06-13 17:52:04,571 1554607 request.py[line:69] {'prompt': 'The largest ocean is', 'request_id': '7b9b1ff1-57e4-45f8-8184-0b83ba247670'}
+DEBUG    2025-06-13 17:52:04,572 1554607 ernie_processor.py[line:287] processed data : <mask:0>User:▁The▁largest▁ocean▁is<0x0A>Assistant:▁
+INFO     2025-06-13 17:52:04,572 1554607 ernie_processor.py[line:115] processed request: Request(request_id=7b9b1ff1-57e4-45f8-8184-0b83ba247670, prompt='The largest ocean is', prompt_token_ids=[100273, 2969, 93963, 93919, 700, 12145, 30559, 357, 23, 92267, 93963, 93919], sampling_params=SamplingParams(n=1, best_of=None, presence_penalty=0.0, frequency_penalty=0.0, repetition_penalty=1.0, temperature=0.1, top_p=0.95, seed=192224144590098200, stop=None, stop_token_ids=None, max_tokens=2, min_tokens=1, logprobs=None, bad_words=None))
+DEBUG    2025-06-13 17:52:07,702 1554607 ernie_processor.py[line:211] Request id: [79045, 2] has been completed.

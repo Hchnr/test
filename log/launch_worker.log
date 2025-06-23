@@ -1,0 +1,44 @@
+/root/miniconda3/envs/hcr/lib/python3.10/site-packages/paddle/utils/cpp_extension/extension_utils.py:715: UserWarning: No ccache found. Please be aware that recompiling all source files may be required. You can download and install ccache from: https://github.com/ccache/ccache/blob/master/doc/INSTALL.md
+  warnings.warn(warning_message)
+LAUNCH INFO 2025-06-13 17:49:22,855 -----------  Configuration  ----------------------
+LAUNCH INFO 2025-06-13 17:49:22,855 auto_cluster_config: 0
+LAUNCH INFO 2025-06-13 17:49:22,855 auto_parallel_config: None
+LAUNCH INFO 2025-06-13 17:49:22,855 auto_tuner_json: None
+LAUNCH INFO 2025-06-13 17:49:22,855 devices: 0
+LAUNCH INFO 2025-06-13 17:49:22,855 elastic_level: -1
+LAUNCH INFO 2025-06-13 17:49:22,855 elastic_timeout: 30
+LAUNCH INFO 2025-06-13 17:49:22,855 enable_gpu_log: True
+LAUNCH INFO 2025-06-13 17:49:22,855 gloo_port: 6767
+LAUNCH INFO 2025-06-13 17:49:22,855 host: None
+LAUNCH INFO 2025-06-13 17:49:22,855 ips: None
+LAUNCH INFO 2025-06-13 17:49:22,855 job_id: default
+LAUNCH INFO 2025-06-13 17:49:22,855 legacy: False
+LAUNCH INFO 2025-06-13 17:49:22,855 log_dir: log
+LAUNCH INFO 2025-06-13 17:49:22,855 log_level: INFO
+LAUNCH INFO 2025-06-13 17:49:22,855 log_overwrite: False
+LAUNCH INFO 2025-06-13 17:49:22,855 master: None
+LAUNCH INFO 2025-06-13 17:49:22,856 max_restart: 3
+LAUNCH INFO 2025-06-13 17:49:22,856 nnodes: 1
+LAUNCH INFO 2025-06-13 17:49:22,856 nproc_per_node: None
+LAUNCH INFO 2025-06-13 17:49:22,856 rank: 0
+LAUNCH INFO 2025-06-13 17:49:22,856 run_mode: collective
+LAUNCH INFO 2025-06-13 17:49:22,856 server_num: None
+LAUNCH INFO 2025-06-13 17:49:22,856 servers: 
+LAUNCH INFO 2025-06-13 17:49:22,856 sort_ip: False
+LAUNCH INFO 2025-06-13 17:49:22,856 start_port: 6070
+LAUNCH INFO 2025-06-13 17:49:22,856 trainer_num: None
+LAUNCH INFO 2025-06-13 17:49:22,856 trainers: 
+LAUNCH INFO 2025-06-13 17:49:22,856 training_script: /root/miniconda3/envs/hcr/lib/python3.10/site-packages/fastdeploy/engine/../worker/worker.py
+LAUNCH INFO 2025-06-13 17:49:22,856 training_script_args: ['--max_num_seqs', '8', '--max_model_len', '8192', '--gpu_memory_utilization', '0.2', '--model_name_or_path', '/share/project/hcr/models/wenxinyiyan/ernie34T-4l', '--device_ids', '0', '--engine_worker_queue_port', '8002', '--total_block_num', '136', '--block_size', '64', '--enc_dec_block_num', '2', '--eos_tokens_lens', '1', '--pad_token_id', '0', '--engine_pid', '1554607', '--do_profile', '1', '--dynamic_load_weight', '0', '--max_num_batched_tokens', '8192', '--kv_cache_ratio', '0.75', '--dtype', 'bfloat16']
+LAUNCH INFO 2025-06-13 17:49:22,856 with_gloo: 1
+LAUNCH INFO 2025-06-13 17:49:22,856 --------------------------------------------------
+LAUNCH INFO 2025-06-13 17:49:22,857 Job: default, mode collective, replicas 1[1:1], elastic False
+LAUNCH INFO 2025-06-13 17:49:22,861 Run Pod: wnfrei, replicas 1, status ready
+LAUNCH INFO 2025-06-13 17:49:22,888 Watching Pod: wnfrei, replicas 1, status running
+LAUNCH WARNING 2025-06-13 17:55:57,156 save gpu log failed
+LAUNCH WARNING 2025-06-15 13:05:33,585 save gpu log failed
+LAUNCH INFO 2025-06-16 10:11:25,793 Pod failed
+LAUNCH ERROR 2025-06-16 10:11:25,795 Container failed !!!
+Container rank 0 status failed cmd ['/root/miniconda3/envs/hcr/bin/python', '-u', '/root/miniconda3/envs/hcr/lib/python3.10/site-packages/fastdeploy/engine/../worker/worker.py', '--max_num_seqs', '8', '--max_model_len', '8192', '--gpu_memory_utilization', '0.2', '--model_name_or_path', '/share/project/hcr/models/wenxinyiyan/ernie34T-4l', '--device_ids', '0', '--engine_worker_queue_port', '8002', '--total_block_num', '136', '--block_size', '64', '--enc_dec_block_num', '2', '--eos_tokens_lens', '1', '--pad_token_id', '0', '--engine_pid', '1554607', '--do_profile', '1', '--dynamic_load_weight', '0', '--max_num_batched_tokens', '8192', '--kv_cache_ratio', '0.75', '--dtype', 'bfloat16'] code -15 log log/workerlog.0
+LAUNCH INFO 2025-06-16 10:11:25,795 ------------------------- ERROR LOG DETAIL -------------------------
+LAUNCH INFO 2025-06-16 10:11:25,796 Exit code -15

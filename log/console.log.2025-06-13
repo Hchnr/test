@@ -1,0 +1,3 @@
+INFO     2025-06-13 17:49:21,350 1554607 engine.py[line:134] Waitting worker processes ready...
+INFO     2025-06-13 17:52:04,570 1554607 engine.py[line:700] Stop profile, num_gpu_blocks:  136
+INFO     2025-06-13 17:52:04,571 1554607 engine.py[line:175] Worker processes are launched with 164.38177156448364 seconds.

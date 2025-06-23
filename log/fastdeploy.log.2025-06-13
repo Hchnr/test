@@ -1,0 +1,440 @@
+INFO     2025-06-13 17:49:19,149 1554607 config.py[line:132] Parameter `COMPRESSION_RATIO` will use default value 1.0.
+INFO     2025-06-13 17:49:19,149 1554607 config.py[line:232] Doing profile, the total_block_num:136
+INFO     2025-06-13 17:49:19,149 1554607 config.py[line:403] =================== Configuration Information ===============
+INFO     2025-06-13 17:49:19,149 1554607 config.py[line:154] Model Configuration Information :
+INFO     2025-06-13 17:49:19,149 1554607 config.py[line:156] model_dir           :      /share/project/hcr/models/wenxinyiyan/ernie34T-4l
+INFO     2025-06-13 17:49:19,149 1554607 config.py[line:156] is_unified_ckpt     :      True
+INFO     2025-06-13 17:49:19,150 1554607 config.py[line:156] dynamic_load_weight :      0
+INFO     2025-06-13 17:49:19,150 1554607 config.py[line:156] architectures       :      ErnieForCausalLM
+INFO     2025-06-13 17:49:19,150 1554607 config.py[line:156] bos_token_id        :      1
+INFO     2025-06-13 17:49:19,150 1554607 config.py[line:156] eos_token_id        :      2
+INFO     2025-06-13 17:49:19,150 1554607 config.py[line:156] hidden_act          :      silu
+INFO     2025-06-13 17:49:19,150 1554607 config.py[line:156] hidden_size         :      8192
+INFO     2025-06-13 17:49:19,150 1554607 config.py[line:156] intermediate_size   :      28672
+INFO     2025-06-13 17:49:19,150 1554607 config.py[line:156] initializer_range   :      0.00482174
+INFO     2025-06-13 17:49:19,150 1554607 config.py[line:156] max_sequence_length :      131072
+INFO     2025-06-13 17:49:19,150 1554607 config.py[line:156] max_position_embeddings:      131072
+INFO     2025-06-13 17:49:19,150 1554607 config.py[line:156] model_type          :      ernie
+INFO     2025-06-13 17:49:19,150 1554607 config.py[line:156] model_name          :      chat
+INFO     2025-06-13 17:49:19,150 1554607 config.py[line:156] num_attention_heads :      64
+INFO     2025-06-13 17:49:19,150 1554607 config.py[line:156] num_key_value_heads :      8
+INFO     2025-06-13 17:49:19,150 1554607 config.py[line:156] pad_token_id        :      0
+INFO     2025-06-13 17:49:19,150 1554607 config.py[line:156] rms_norm_eps        :      1e-05
+INFO     2025-06-13 17:49:19,150 1554607 config.py[line:156] use_cache           :      False
+INFO     2025-06-13 17:49:19,150 1554607 config.py[line:156] vocab_size          :      103424
+INFO     2025-06-13 17:49:19,150 1554607 config.py[line:156] rope_theta          :      500000
+INFO     2025-06-13 17:49:19,150 1554607 config.py[line:156] use_rmsnorm         :      True
+INFO     2025-06-13 17:49:19,150 1554607 config.py[line:156] fuse_rms_norm       :      True
+INFO     2025-06-13 17:49:19,150 1554607 config.py[line:156] use_bias            :      False
+INFO     2025-06-13 17:49:19,150 1554607 config.py[line:156] use_fast_ln         :      True
+INFO     2025-06-13 17:49:19,150 1554607 config.py[line:156] fuse_linear         :      False
+INFO     2025-06-13 17:49:19,150 1554607 config.py[line:156] fuse_rope           :      True
+INFO     2025-06-13 17:49:19,150 1554607 config.py[line:156] fuse_swiglu         :      True
+INFO     2025-06-13 17:49:19,150 1554607 config.py[line:156] fuse_gate_detach_matmul:      True
+INFO     2025-06-13 17:49:19,150 1554607 config.py[line:156] moe_num_experts     :      64
+INFO     2025-06-13 17:49:19,150 1554607 config.py[line:156] moe_layer_start_index:      3
+INFO     2025-06-13 17:49:19,150 1554607 config.py[line:156] moe_intermediate_size:      3584
+INFO     2025-06-13 17:49:19,150 1554607 config.py[line:156] moe_capacity        :      [64, 64, 64]
+INFO     2025-06-13 17:49:19,150 1554607 config.py[line:156] moe_gate            :      top2_fused
+INFO     2025-06-13 17:49:19,150 1554607 config.py[line:156] moe_k               :      8
+INFO     2025-06-13 17:49:19,150 1554607 config.py[line:156] moe_aux_loss_lambda :      1e-05
+INFO     2025-06-13 17:49:19,150 1554607 config.py[line:156] moe_group_orthogonal_loss:      True
+INFO     2025-06-13 17:49:19,150 1554607 config.py[line:156] moe_orthogonal_loss_lambda:      0.0
+INFO     2025-06-13 17:49:19,150 1554607 config.py[line:156] moe_z_loss_lambda   :      0.0
+INFO     2025-06-13 17:49:19,150 1554607 config.py[line:156] moe_layer_interval  :      1
+INFO     2025-06-13 17:49:19,150 1554607 config.py[line:156] moe_use_aux_free    :      True
+INFO     2025-06-13 17:49:19,150 1554607 config.py[line:156] model_name_or_path  :      /share/project/hcr/models/wenxinyiyan/ernie34T-4l
+INFO     2025-06-13 17:49:19,150 1554607 config.py[line:156] num_layers          :      4
+INFO     2025-06-13 17:49:19,150 1554607 config.py[line:156] mla_use_absorb      :      False
+INFO     2025-06-13 17:49:19,150 1554607 config.py[line:156] max_stop_seqs_num   :      5
+INFO     2025-06-13 17:49:19,151 1554607 config.py[line:156] stop_seqs_max_len   :      8
+INFO     2025-06-13 17:49:19,151 1554607 config.py[line:156] ellm_dynamic_quant_type:      default
+INFO     2025-06-13 17:49:19,151 1554607 config.py[line:156] ellm_dynamic_use_stop_seqs:      False
+INFO     2025-06-13 17:49:19,151 1554607 config.py[line:156] compression_ratio   :      1.0
+INFO     2025-06-13 17:49:19,151 1554607 config.py[line:157] =============================================================
+INFO     2025-06-13 17:49:19,151 1554607 config.py[line:248] Cache Configuration Information :
+INFO     2025-06-13 17:49:19,151 1554607 config.py[line:250] block_size          :      64
+INFO     2025-06-13 17:49:19,151 1554607 config.py[line:250] gpu_memory_utilization:      0.2
+INFO     2025-06-13 17:49:19,151 1554607 config.py[line:250] num_gpu_blocks_override:      None
+INFO     2025-06-13 17:49:19,151 1554607 config.py[line:250] kv_cache_ratio      :      0.75
+INFO     2025-06-13 17:49:19,151 1554607 config.py[line:250] enc_dec_block_num   :      2
+INFO     2025-06-13 17:49:19,151 1554607 config.py[line:250] cache_dtype         :      bfloat16
+INFO     2025-06-13 17:49:19,151 1554607 config.py[line:250] enable_prefix_caching:      False
+INFO     2025-06-13 17:49:19,151 1554607 config.py[line:250] dec_token_num       :      128
+INFO     2025-06-13 17:49:19,151 1554607 config.py[line:250] total_block_num     :      136
+INFO     2025-06-13 17:49:19,151 1554607 config.py[line:250] prefill_kvcache_block_num:      136
+INFO     2025-06-13 17:49:19,151 1554607 config.py[line:251] =============================================================
+INFO     2025-06-13 17:49:19,151 1554607 config.py[line:51] LocalScheduler Configuration Information :
+INFO     2025-06-13 17:49:19,151 1554607 config.py[line:53] max_size            :      -1
+INFO     2025-06-13 17:49:19,151 1554607 config.py[line:53] ttl                 :      900
+INFO     2025-06-13 17:49:19,151 1554607 config.py[line:53] wait_response_timeout:      0.001
+INFO     2025-06-13 17:49:19,151 1554607 config.py[line:54] =============================================================
+INFO     2025-06-13 17:49:19,151 1554607 config.py[line:412] model_name_or_path  :      /share/project/hcr/models/wenxinyiyan/ernie34T-4l
+INFO     2025-06-13 17:49:19,151 1554607 config.py[line:412] tokenizer           :      /share/project/hcr/models/wenxinyiyan/ernie34T-4l
+INFO     2025-06-13 17:49:19,151 1554607 config.py[line:412] max_num_batched_tokens:      8192
+INFO     2025-06-13 17:49:19,151 1554607 config.py[line:412] tensor_parallel_size:      1
+INFO     2025-06-13 17:49:19,151 1554607 config.py[line:412] nnode               :      1
+INFO     2025-06-13 17:49:19,151 1554607 config.py[line:412] pod_ips             :      None
+INFO     2025-06-13 17:49:19,151 1554607 config.py[line:412] max_model_len       :      8192
+INFO     2025-06-13 17:49:19,151 1554607 config.py[line:412] max_num_seqs        :      8
+INFO     2025-06-13 17:49:19,151 1554607 config.py[line:412] mm_processor_kwargs :      None
+INFO     2025-06-13 17:49:19,151 1554607 config.py[line:412] enable_mm           :      False
+INFO     2025-06-13 17:49:19,151 1554607 config.py[line:412] speculative_config  :      None
+INFO     2025-06-13 17:49:19,151 1554607 config.py[line:412] use_warmup          :      0
+INFO     2025-06-13 17:49:19,151 1554607 config.py[line:412] enable_chunked_prefill:      False
+INFO     2025-06-13 17:49:19,151 1554607 config.py[line:412] max_prefill_batch   :      3
+INFO     2025-06-13 17:49:19,151 1554607 config.py[line:412] engine_worker_queue_port:      8002
+INFO     2025-06-13 17:49:19,151 1554607 config.py[line:412] device_ids          :      0
+INFO     2025-06-13 17:49:19,151 1554607 config.py[line:412] tp_num_per_node     :      1
+INFO     2025-06-13 17:49:19,151 1554607 config.py[line:412] host_ip             :      172.24.135.43
+INFO     2025-06-13 17:49:19,151 1554607 config.py[line:412] paddle_commit_id    :      917ecbd6d7ba2e0dd5742eca9cd7adf865dcb3f2
+INFO     2025-06-13 17:49:19,151 1554607 config.py[line:413] =============================================================
+INFO     2025-06-13 17:49:19,152 1554607 resource_manager.py[line:52] ResourceManager info, total_block_number: 136, total_batch_number: 8, available_block_num: 136, available_batch: 8
+INFO     2025-06-13 17:49:20,188 1554607 inter_communicator.py[line:390] EngineWorkerQueue server started.
+INFO     2025-06-13 17:49:20,193 1554607 config.py[line:132] Parameter `COMPRESSION_RATIO` will use default value 1.0.
+INFO     2025-06-13 17:49:20,200 1554607 config.py[line:132] Parameter `COMPRESSION_RATIO` will use default value 1.0.
+INFO     2025-06-13 17:49:21,320 1554607 engine.py[line:611] Launch worker service command: PADDLE_TRAINER_ID=0 PADDLE_TRAINERS_NUM=1 TRAINER_INSTANCES_NUM=1 TRAINER_INSTANCES=0.0.0.0 ENABLE_FASTDEPLOY_LOAD_MODEL_CONCURRENCY=0 LOAD_STATE_DICT_THREAD_NUM=1 PROTOCOL_BUFFERS_PYTHON_IMPLEMENTATION=python FLAGS_use_append_attn=1 NCCL_ALGO=Ring ELLM_DYNAMIC_MODE=1  /root/miniconda3/envs/hcr/bin/python -u -m paddle.distributed.launch  --nnodes 1 --devices 0 /root/miniconda3/envs/hcr/lib/python3.10/site-packages/fastdeploy/engine/../worker/worker.py --max_num_seqs 8 --max_model_len 8192 --gpu_memory_utilization 0.2 --model_name_or_path /share/project/hcr/models/wenxinyiyan/ernie34T-4l --device_ids 0 --engine_worker_queue_port 8002 --total_block_num 136 --block_size 64 --enc_dec_block_num 2 --eos_tokens_lens 1 --pad_token_id 0 --engine_pid 1554607 --do_profile 1 --dynamic_load_weight 0 --max_num_batched_tokens 8192 --kv_cache_ratio 0.75 --dtype bfloat16 2>log/launch_worker.log
+INFO     2025-06-13 17:49:26,640 1555007 config.py[line:132] Parameter `COMPRESSION_RATIO` will use default value 1.0.
+DEBUG    2025-06-13 17:49:26,802 1555007 import_ops.py[line:37] Import LayerHelper from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:49:26,803 1555007 import_ops.py[line:37] Import cur_dir from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:49:26,803 1555007 import_ops.py[line:37] Import importlib from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:49:26,803 1555007 import_ops.py[line:37] Import in_dynamic_or_pir_mode from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:49:26,803 1555007 import_ops.py[line:37] Import os from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:49:26,803 1555007 import_ops.py[line:37] Import paddle from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:49:26,803 1555007 import_ops.py[line:37] Import so_path from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:49:26,803 1555007 import_ops.py[line:37] Import static_op_get_output from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:49:26,803 1555007 import_ops.py[line:37] Import static_op_get_output_dynamic from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:49:26,803 1555007 import_ops.py[line:37] Import static_op_get_output_topk from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:49:26,803 1555007 import_ops.py[line:37] Import static_op_reset_stop_value from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:49:26,803 1555007 import_ops.py[line:37] Import static_op_save_output from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:49:26,803 1555007 import_ops.py[line:37] Import static_op_save_output_dynamic from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:49:26,803 1555007 import_ops.py[line:37] Import static_op_transfer_output from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:49:26,803 1555007 import_ops.py[line:37] Import sys from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:49:26,803 1555007 import_ops.py[line:37] Import types from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:49:26,803 1555007 import_ops.py[line:37] Import unified from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:49:27,042 1555007 import_ops.py[line:37] Import CudaError from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:49:27,043 1555007 import_ops.py[line:37] Import append_attention from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:49:27,043 1555007 import_ops.py[line:37] Import cuda_host_alloc from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:49:27,043 1555007 import_ops.py[line:37] Import cuda_host_free from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:49:27,043 1555007 import_ops.py[line:37] Import dequant_int8 from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:49:27,043 1555007 import_ops.py[line:37] Import ep_moe_expert_combine from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:49:27,043 1555007 import_ops.py[line:37] Import ep_moe_expert_dispatch from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:49:27,043 1555007 import_ops.py[line:37] Import ep_moe_expert_dispatch_fp8 from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:49:27,043 1555007 import_ops.py[line:37] Import extract_text_token_output from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:49:27,043 1555007 import_ops.py[line:37] Import f_moe_redundant_topk_select from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:49:27,043 1555007 import_ops.py[line:37] Import fused_expert_moe from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:49:27,043 1555007 import_ops.py[line:37] Import fused_moe from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:49:27,043 1555007 import_ops.py[line:37] Import get_expert_token_num from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:49:27,043 1555007 import_ops.py[line:37] Import get_mm_split_fuse from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:49:27,043 1555007 import_ops.py[line:37] Import get_output_kv_signal from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:49:27,043 1555007 import_ops.py[line:37] Import get_padding_offset from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:49:27,043 1555007 import_ops.py[line:37] Import gqa_rope_write_cache from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:49:27,043 1555007 import_ops.py[line:37] Import group_swiglu_with_masked from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:49:27,043 1555007 import_ops.py[line:37] Import init_kv_signal_per_query from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:49:27,043 1555007 import_ops.py[line:37] Import init_signal_layerwise from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:49:27,043 1555007 import_ops.py[line:37] Import masked_per_token_quant from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:49:27,043 1555007 import_ops.py[line:37] Import moe_deepgemm_depermute from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:49:27,043 1555007 import_ops.py[line:37] Import moe_deepgemm_permute from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:49:27,043 1555007 import_ops.py[line:37] Import moe_expert_dispatch from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:49:27,043 1555007 import_ops.py[line:37] Import moe_expert_ffn from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:49:27,043 1555007 import_ops.py[line:37] Import moe_expert_reduce from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:49:27,043 1555007 import_ops.py[line:37] Import moe_redundant_topk_select from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:49:27,044 1555007 import_ops.py[line:37] Import moe_topk_select from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:49:27,044 1555007 import_ops.py[line:37] Import open_shm_and_get_meta_signal from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:49:27,044 1555007 import_ops.py[line:37] Import per_token_quant from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:49:27,044 1555007 import_ops.py[line:37] Import per_token_quant_padding from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:49:27,044 1555007 import_ops.py[line:37] Import pre_cache_len_concat from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:49:27,044 1555007 import_ops.py[line:37] Import rebuild_padding from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:49:27,044 1555007 import_ops.py[line:37] Import set_stop_value_multi_ends from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:49:27,044 1555007 import_ops.py[line:37] Import set_stop_value_multi_seqs from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:49:27,044 1555007 import_ops.py[line:37] Import set_value_by_flags_and_idx from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:49:27,044 1555007 import_ops.py[line:37] Import static_op_append_attention from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:49:27,044 1555007 import_ops.py[line:37] Import static_op_beam_search_softmax from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:49:27,044 1555007 import_ops.py[line:37] Import static_op_dequant_int8 from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:49:27,044 1555007 import_ops.py[line:37] Import static_op_draft_model_postprocess from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:49:27,044 1555007 import_ops.py[line:37] Import static_op_draft_model_preprocess from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:49:27,044 1555007 import_ops.py[line:37] Import static_op_draft_model_set_value_by_flags from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:49:27,044 1555007 import_ops.py[line:37] Import static_op_draft_model_update from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:49:27,044 1555007 import_ops.py[line:37] Import static_op_eagle_get_hidden_states from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:49:27,044 1555007 import_ops.py[line:37] Import static_op_eagle_get_self_hidden_states from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:49:27,044 1555007 import_ops.py[line:37] Import static_op_ep_moe_expert_dispatch from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:49:27,044 1555007 import_ops.py[line:37] Import static_op_ep_moe_expert_dispatch_fp8 from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:49:27,044 1555007 import_ops.py[line:37] Import static_op_extract_text_token_output from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:49:27,044 1555007 import_ops.py[line:37] Import static_op_fused_expert_moe from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:49:27,044 1555007 import_ops.py[line:37] Import static_op_fused_get_rotary_embedding from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:49:27,044 1555007 import_ops.py[line:37] Import static_op_gather_idx from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:49:27,044 1555007 import_ops.py[line:37] Import static_op_gemm_dequant from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:49:27,044 1555007 import_ops.py[line:37] Import static_op_get_block_shape_and_split_kv_block from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:49:27,045 1555007 import_ops.py[line:37] Import static_op_get_enf_gen_scores from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:49:27,045 1555007 import_ops.py[line:37] Import static_op_get_output_ep from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:49:27,045 1555007 import_ops.py[line:37] Import static_op_get_output_ep_dynamic from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:49:27,045 1555007 import_ops.py[line:37] Import static_op_get_padding_offset from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:49:27,045 1555007 import_ops.py[line:37] Import static_op_get_token_penalty_multi_scores from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:49:27,045 1555007 import_ops.py[line:37] Import static_op_get_token_penalty_once from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:49:27,045 1555007 import_ops.py[line:37] Import static_op_gqa_rope_write_cache from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:49:27,045 1555007 import_ops.py[line:37] Import static_op_group_swiglu_with_masked from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:49:27,045 1555007 import_ops.py[line:37] Import static_op_hydra_fetch_hidden_states from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:49:27,045 1555007 import_ops.py[line:37] Import static_op_init_signal_layerwise from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:49:27,045 1555007 import_ops.py[line:37] Import static_op_masked_per_token_quant from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:49:27,045 1555007 import_ops.py[line:37] Import static_op_moe_deepgemm_depermute from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:49:27,045 1555007 import_ops.py[line:37] Import static_op_moe_deepgemm_permute from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:49:27,045 1555007 import_ops.py[line:37] Import static_op_moe_expert_dispatch from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:49:27,045 1555007 import_ops.py[line:37] Import static_op_moe_expert_ffn from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:49:27,045 1555007 import_ops.py[line:37] Import static_op_moe_expert_reduce from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:49:27,045 1555007 import_ops.py[line:37] Import static_op_moe_topk_select from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:49:27,045 1555007 import_ops.py[line:37] Import static_op_mtp_save_first_token from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:49:27,045 1555007 import_ops.py[line:37] Import static_op_mtp_save_first_token_dynamic from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:49:27,045 1555007 import_ops.py[line:37] Import static_op_mtp_step_paddle from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:49:27,045 1555007 import_ops.py[line:37] Import static_op_ngram_mask from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:49:27,045 1555007 import_ops.py[line:37] Import static_op_ngram_match from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:49:27,045 1555007 import_ops.py[line:37] Import static_op_open_shm_and_get_meta_signal from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:49:27,045 1555007 import_ops.py[line:37] Import static_op_per_token_quant from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:49:27,045 1555007 import_ops.py[line:37] Import static_op_per_token_quant_padding from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:49:27,045 1555007 import_ops.py[line:37] Import static_op_pre_cache_len_concat from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:49:27,045 1555007 import_ops.py[line:37] Import static_op_read_data_ipc from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:49:27,045 1555007 import_ops.py[line:37] Import static_op_rebuild_padding from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:49:27,045 1555007 import_ops.py[line:37] Import static_op_set_data_ipc from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:49:27,045 1555007 import_ops.py[line:37] Import static_op_set_flags from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:49:27,046 1555007 import_ops.py[line:37] Import static_op_set_mask_value from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:49:27,046 1555007 import_ops.py[line:37] Import static_op_set_stop_value from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:49:27,046 1555007 import_ops.py[line:37] Import static_op_set_stop_value_multi_ends from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:49:27,046 1555007 import_ops.py[line:37] Import static_op_set_stop_value_multi_seqs from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:49:27,046 1555007 import_ops.py[line:37] Import static_op_set_value_by_flags_and_idx from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:49:27,046 1555007 import_ops.py[line:37] Import static_op_share_external_data from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:49:27,046 1555007 import_ops.py[line:37] Import static_op_speculate_calcu_accept_ratio from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:49:27,046 1555007 import_ops.py[line:37] Import static_op_speculate_clear_accept_nums from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:49:27,046 1555007 import_ops.py[line:37] Import static_op_speculate_get_output from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:49:27,046 1555007 import_ops.py[line:37] Import static_op_speculate_get_output_dynamic from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:49:27,046 1555007 import_ops.py[line:37] Import static_op_speculate_get_output_padding_offset from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:49:27,046 1555007 import_ops.py[line:37] Import static_op_speculate_get_padding_offset from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:49:27,046 1555007 import_ops.py[line:37] Import static_op_speculate_get_seq_lens_output from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:49:27,046 1555007 import_ops.py[line:37] Import static_op_speculate_get_token_penalty_multi_scores from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:49:27,046 1555007 import_ops.py[line:37] Import static_op_speculate_hydra_set_score_threshold from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:49:27,046 1555007 import_ops.py[line:37] Import static_op_speculate_hydra_update_seqlens_this_time from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:49:27,046 1555007 import_ops.py[line:37] Import static_op_speculate_rebuild_append_padding from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:49:27,046 1555007 import_ops.py[line:37] Import static_op_speculate_save_output from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:49:27,046 1555007 import_ops.py[line:37] Import static_op_speculate_save_output_dynamic from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:49:27,046 1555007 import_ops.py[line:37] Import static_op_speculate_set_stop_value_multi_seqs from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:49:27,046 1555007 import_ops.py[line:37] Import static_op_speculate_set_value_by_flags_and_idx from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:49:27,046 1555007 import_ops.py[line:37] Import static_op_speculate_step_paddle from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:49:27,046 1555007 import_ops.py[line:37] Import static_op_speculate_step_reschedule from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:49:27,046 1555007 import_ops.py[line:37] Import static_op_speculate_step_system_cache from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:49:27,046 1555007 import_ops.py[line:37] Import static_op_speculate_update_input_ids_cpu from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:49:27,046 1555007 import_ops.py[line:37] Import static_op_speculate_update_seq_lens_this_time from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:49:27,046 1555007 import_ops.py[line:37] Import static_op_speculate_update_v2 from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:49:27,046 1555007 import_ops.py[line:37] Import static_op_speculate_update_v3 from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:49:27,046 1555007 import_ops.py[line:37] Import static_op_speculate_verify from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:49:27,047 1555007 import_ops.py[line:37] Import static_op_step_paddle from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:49:27,047 1555007 import_ops.py[line:37] Import static_op_step_reschedule from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:49:27,047 1555007 import_ops.py[line:37] Import static_op_step_system_cache from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:49:27,047 1555007 import_ops.py[line:37] Import static_op_swap_cache from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:49:27,047 1555007 import_ops.py[line:37] Import static_op_swap_cache_all_layers from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:49:27,047 1555007 import_ops.py[line:37] Import static_op_top_p_candidates from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:49:27,047 1555007 import_ops.py[line:37] Import static_op_tune_cublaslt_gemm from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:49:27,047 1555007 import_ops.py[line:37] Import static_op_update_enf_gen_values from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:49:27,047 1555007 import_ops.py[line:37] Import static_op_update_inputs from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:49:27,047 1555007 import_ops.py[line:37] Import static_op_update_inputs_beam from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:49:27,047 1555007 import_ops.py[line:37] Import static_op_update_split_fuse_inputs from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:49:27,047 1555007 import_ops.py[line:37] Import update_inputs from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:49:27,047 1555007 import_ops.py[line:37] Import LayerHelper from fastdeploy.model_executor.ops.cpu
+DEBUG    2025-06-13 17:49:27,047 1555007 import_ops.py[line:37] Import cur_dir from fastdeploy.model_executor.ops.cpu
+DEBUG    2025-06-13 17:49:27,047 1555007 import_ops.py[line:37] Import importlib from fastdeploy.model_executor.ops.cpu
+DEBUG    2025-06-13 17:49:27,047 1555007 import_ops.py[line:37] Import in_dynamic_or_pir_mode from fastdeploy.model_executor.ops.cpu
+DEBUG    2025-06-13 17:49:27,048 1555007 import_ops.py[line:37] Import os from fastdeploy.model_executor.ops.cpu
+DEBUG    2025-06-13 17:49:27,048 1555007 import_ops.py[line:37] Import paddle from fastdeploy.model_executor.ops.cpu
+DEBUG    2025-06-13 17:49:27,048 1555007 import_ops.py[line:37] Import so_path from fastdeploy.model_executor.ops.cpu
+DEBUG    2025-06-13 17:49:27,048 1555007 import_ops.py[line:37] Import static_op_get_output from fastdeploy.model_executor.ops.cpu
+DEBUG    2025-06-13 17:49:27,048 1555007 import_ops.py[line:37] Import static_op_get_output_dynamic from fastdeploy.model_executor.ops.cpu
+DEBUG    2025-06-13 17:49:27,048 1555007 import_ops.py[line:37] Import static_op_get_output_topk from fastdeploy.model_executor.ops.cpu
+DEBUG    2025-06-13 17:49:27,048 1555007 import_ops.py[line:37] Import static_op_reset_stop_value from fastdeploy.model_executor.ops.cpu
+DEBUG    2025-06-13 17:49:27,048 1555007 import_ops.py[line:37] Import static_op_save_output from fastdeploy.model_executor.ops.cpu
+DEBUG    2025-06-13 17:49:27,048 1555007 import_ops.py[line:37] Import static_op_save_output_dynamic from fastdeploy.model_executor.ops.cpu
+DEBUG    2025-06-13 17:49:27,048 1555007 import_ops.py[line:37] Import static_op_transfer_output from fastdeploy.model_executor.ops.cpu
+DEBUG    2025-06-13 17:49:27,048 1555007 import_ops.py[line:37] Import sys from fastdeploy.model_executor.ops.cpu
+DEBUG    2025-06-13 17:49:27,048 1555007 import_ops.py[line:37] Import types from fastdeploy.model_executor.ops.cpu
+DEBUG    2025-06-13 17:49:27,048 1555007 import_ops.py[line:37] Import unified from fastdeploy.model_executor.ops.cpu
+[33mWARNING  2025-06-13 17:49:27,048 1555007 import_ops.py[line:44] Ops of fastdeploy.model_executor.ops.cpu import failed, it may be not compiled.[0m
+[33mWARNING  2025-06-13 17:49:27,048 1555007 import_ops.py[line:44] Ops of fastdeploy.model_executor.ops.xpu import failed, it may be not compiled.[0m
+[33mWARNING  2025-06-13 17:49:27,048 1555007 import_ops.py[line:44] Ops of fastdeploy.model_executor.ops.npu import failed, it may be not compiled.[0m
+INFO     2025-06-13 17:50:08,573 1555007 inter_communicator.py[line:397] Connected EngineWorkerQueue client_id: 0, number of connected clients: 1
+DEBUG    2025-06-13 17:50:10,583 1554607 import_ops.py[line:37] Import LayerHelper from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:50:10,584 1554607 import_ops.py[line:37] Import cur_dir from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:50:10,584 1554607 import_ops.py[line:37] Import importlib from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:50:10,584 1554607 import_ops.py[line:37] Import in_dynamic_or_pir_mode from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:50:10,584 1554607 import_ops.py[line:37] Import os from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:50:10,584 1554607 import_ops.py[line:37] Import paddle from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:50:10,584 1554607 import_ops.py[line:37] Import so_path from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:50:10,584 1554607 import_ops.py[line:37] Import static_op_get_output from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:50:10,584 1554607 import_ops.py[line:37] Import static_op_get_output_dynamic from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:50:10,584 1554607 import_ops.py[line:37] Import static_op_get_output_topk from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:50:10,584 1554607 import_ops.py[line:37] Import static_op_reset_stop_value from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:50:10,584 1554607 import_ops.py[line:37] Import static_op_save_output from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:50:10,584 1554607 import_ops.py[line:37] Import static_op_save_output_dynamic from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:50:10,584 1554607 import_ops.py[line:37] Import static_op_transfer_output from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:50:10,584 1554607 import_ops.py[line:37] Import sys from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:50:10,584 1554607 import_ops.py[line:37] Import types from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:50:10,584 1554607 import_ops.py[line:37] Import unified from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:50:10,843 1554607 import_ops.py[line:37] Import CudaError from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:50:10,843 1554607 import_ops.py[line:37] Import append_attention from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:50:10,843 1554607 import_ops.py[line:37] Import cuda_host_alloc from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:50:10,843 1554607 import_ops.py[line:37] Import cuda_host_free from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:50:10,843 1554607 import_ops.py[line:37] Import dequant_int8 from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:50:10,843 1554607 import_ops.py[line:37] Import ep_moe_expert_combine from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:50:10,843 1554607 import_ops.py[line:37] Import ep_moe_expert_dispatch from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:50:10,843 1554607 import_ops.py[line:37] Import ep_moe_expert_dispatch_fp8 from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:50:10,843 1554607 import_ops.py[line:37] Import extract_text_token_output from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:50:10,843 1554607 import_ops.py[line:37] Import f_moe_redundant_topk_select from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:50:10,843 1554607 import_ops.py[line:37] Import fused_expert_moe from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:50:10,843 1554607 import_ops.py[line:37] Import fused_moe from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:50:10,843 1554607 import_ops.py[line:37] Import get_expert_token_num from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:50:10,843 1554607 import_ops.py[line:37] Import get_mm_split_fuse from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:50:10,843 1554607 import_ops.py[line:37] Import get_output_kv_signal from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:50:10,843 1554607 import_ops.py[line:37] Import get_padding_offset from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:50:10,844 1554607 import_ops.py[line:37] Import gqa_rope_write_cache from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:50:10,844 1554607 import_ops.py[line:37] Import group_swiglu_with_masked from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:50:10,844 1554607 import_ops.py[line:37] Import init_kv_signal_per_query from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:50:10,844 1554607 import_ops.py[line:37] Import init_signal_layerwise from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:50:10,844 1554607 import_ops.py[line:37] Import masked_per_token_quant from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:50:10,844 1554607 import_ops.py[line:37] Import moe_deepgemm_depermute from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:50:10,844 1554607 import_ops.py[line:37] Import moe_deepgemm_permute from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:50:10,844 1554607 import_ops.py[line:37] Import moe_expert_dispatch from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:50:10,844 1554607 import_ops.py[line:37] Import moe_expert_ffn from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:50:10,844 1554607 import_ops.py[line:37] Import moe_expert_reduce from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:50:10,844 1554607 import_ops.py[line:37] Import moe_redundant_topk_select from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:50:10,844 1554607 import_ops.py[line:37] Import moe_topk_select from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:50:10,844 1554607 import_ops.py[line:37] Import open_shm_and_get_meta_signal from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:50:10,844 1554607 import_ops.py[line:37] Import per_token_quant from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:50:10,844 1554607 import_ops.py[line:37] Import per_token_quant_padding from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:50:10,844 1554607 import_ops.py[line:37] Import pre_cache_len_concat from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:50:10,844 1554607 import_ops.py[line:37] Import rebuild_padding from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:50:10,844 1554607 import_ops.py[line:37] Import set_stop_value_multi_ends from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:50:10,844 1554607 import_ops.py[line:37] Import set_stop_value_multi_seqs from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:50:10,844 1554607 import_ops.py[line:37] Import set_value_by_flags_and_idx from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:50:10,844 1554607 import_ops.py[line:37] Import static_op_append_attention from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:50:10,844 1554607 import_ops.py[line:37] Import static_op_beam_search_softmax from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:50:10,844 1554607 import_ops.py[line:37] Import static_op_dequant_int8 from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:50:10,844 1554607 import_ops.py[line:37] Import static_op_draft_model_postprocess from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:50:10,844 1554607 import_ops.py[line:37] Import static_op_draft_model_preprocess from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:50:10,844 1554607 import_ops.py[line:37] Import static_op_draft_model_set_value_by_flags from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:50:10,844 1554607 import_ops.py[line:37] Import static_op_draft_model_update from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:50:10,844 1554607 import_ops.py[line:37] Import static_op_eagle_get_hidden_states from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:50:10,844 1554607 import_ops.py[line:37] Import static_op_eagle_get_self_hidden_states from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:50:10,844 1554607 import_ops.py[line:37] Import static_op_ep_moe_expert_dispatch from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:50:10,844 1554607 import_ops.py[line:37] Import static_op_ep_moe_expert_dispatch_fp8 from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:50:10,845 1554607 import_ops.py[line:37] Import static_op_extract_text_token_output from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:50:10,845 1554607 import_ops.py[line:37] Import static_op_fused_expert_moe from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:50:10,845 1554607 import_ops.py[line:37] Import static_op_fused_get_rotary_embedding from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:50:10,845 1554607 import_ops.py[line:37] Import static_op_gather_idx from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:50:10,845 1554607 import_ops.py[line:37] Import static_op_gemm_dequant from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:50:10,845 1554607 import_ops.py[line:37] Import static_op_get_block_shape_and_split_kv_block from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:50:10,845 1554607 import_ops.py[line:37] Import static_op_get_enf_gen_scores from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:50:10,845 1554607 import_ops.py[line:37] Import static_op_get_output_ep from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:50:10,845 1554607 import_ops.py[line:37] Import static_op_get_output_ep_dynamic from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:50:10,845 1554607 import_ops.py[line:37] Import static_op_get_padding_offset from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:50:10,845 1554607 import_ops.py[line:37] Import static_op_get_token_penalty_multi_scores from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:50:10,845 1554607 import_ops.py[line:37] Import static_op_get_token_penalty_once from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:50:10,845 1554607 import_ops.py[line:37] Import static_op_gqa_rope_write_cache from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:50:10,845 1554607 import_ops.py[line:37] Import static_op_group_swiglu_with_masked from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:50:10,845 1554607 import_ops.py[line:37] Import static_op_hydra_fetch_hidden_states from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:50:10,845 1554607 import_ops.py[line:37] Import static_op_init_signal_layerwise from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:50:10,845 1554607 import_ops.py[line:37] Import static_op_masked_per_token_quant from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:50:10,845 1554607 import_ops.py[line:37] Import static_op_moe_deepgemm_depermute from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:50:10,845 1554607 import_ops.py[line:37] Import static_op_moe_deepgemm_permute from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:50:10,845 1554607 import_ops.py[line:37] Import static_op_moe_expert_dispatch from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:50:10,845 1554607 import_ops.py[line:37] Import static_op_moe_expert_ffn from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:50:10,845 1554607 import_ops.py[line:37] Import static_op_moe_expert_reduce from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:50:10,845 1554607 import_ops.py[line:37] Import static_op_moe_topk_select from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:50:10,845 1554607 import_ops.py[line:37] Import static_op_mtp_save_first_token from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:50:10,845 1554607 import_ops.py[line:37] Import static_op_mtp_save_first_token_dynamic from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:50:10,845 1554607 import_ops.py[line:37] Import static_op_mtp_step_paddle from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:50:10,845 1554607 import_ops.py[line:37] Import static_op_ngram_mask from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:50:10,845 1554607 import_ops.py[line:37] Import static_op_ngram_match from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:50:10,845 1554607 import_ops.py[line:37] Import static_op_open_shm_and_get_meta_signal from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:50:10,846 1554607 import_ops.py[line:37] Import static_op_per_token_quant from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:50:10,846 1554607 import_ops.py[line:37] Import static_op_per_token_quant_padding from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:50:10,846 1554607 import_ops.py[line:37] Import static_op_pre_cache_len_concat from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:50:10,846 1554607 import_ops.py[line:37] Import static_op_read_data_ipc from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:50:10,846 1554607 import_ops.py[line:37] Import static_op_rebuild_padding from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:50:10,846 1554607 import_ops.py[line:37] Import static_op_set_data_ipc from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:50:10,846 1554607 import_ops.py[line:37] Import static_op_set_flags from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:50:10,846 1554607 import_ops.py[line:37] Import static_op_set_mask_value from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:50:10,846 1554607 import_ops.py[line:37] Import static_op_set_stop_value from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:50:10,846 1554607 import_ops.py[line:37] Import static_op_set_stop_value_multi_ends from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:50:10,846 1554607 import_ops.py[line:37] Import static_op_set_stop_value_multi_seqs from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:50:10,846 1554607 import_ops.py[line:37] Import static_op_set_value_by_flags_and_idx from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:50:10,846 1554607 import_ops.py[line:37] Import static_op_share_external_data from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:50:10,846 1554607 import_ops.py[line:37] Import static_op_speculate_calcu_accept_ratio from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:50:10,846 1554607 import_ops.py[line:37] Import static_op_speculate_clear_accept_nums from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:50:10,846 1554607 import_ops.py[line:37] Import static_op_speculate_get_output from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:50:10,846 1554607 import_ops.py[line:37] Import static_op_speculate_get_output_dynamic from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:50:10,846 1554607 import_ops.py[line:37] Import static_op_speculate_get_output_padding_offset from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:50:10,846 1554607 import_ops.py[line:37] Import static_op_speculate_get_padding_offset from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:50:10,846 1554607 import_ops.py[line:37] Import static_op_speculate_get_seq_lens_output from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:50:10,846 1554607 import_ops.py[line:37] Import static_op_speculate_get_token_penalty_multi_scores from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:50:10,846 1554607 import_ops.py[line:37] Import static_op_speculate_hydra_set_score_threshold from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:50:10,846 1554607 import_ops.py[line:37] Import static_op_speculate_hydra_update_seqlens_this_time from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:50:10,846 1554607 import_ops.py[line:37] Import static_op_speculate_rebuild_append_padding from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:50:10,846 1554607 import_ops.py[line:37] Import static_op_speculate_save_output from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:50:10,846 1554607 import_ops.py[line:37] Import static_op_speculate_save_output_dynamic from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:50:10,846 1554607 import_ops.py[line:37] Import static_op_speculate_set_stop_value_multi_seqs from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:50:10,846 1554607 import_ops.py[line:37] Import static_op_speculate_set_value_by_flags_and_idx from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:50:10,847 1554607 import_ops.py[line:37] Import static_op_speculate_step_paddle from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:50:10,847 1554607 import_ops.py[line:37] Import static_op_speculate_step_reschedule from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:50:10,847 1554607 import_ops.py[line:37] Import static_op_speculate_step_system_cache from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:50:10,847 1554607 import_ops.py[line:37] Import static_op_speculate_update_input_ids_cpu from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:50:10,847 1554607 import_ops.py[line:37] Import static_op_speculate_update_seq_lens_this_time from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:50:10,847 1554607 import_ops.py[line:37] Import static_op_speculate_update_v2 from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:50:10,847 1554607 import_ops.py[line:37] Import static_op_speculate_update_v3 from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:50:10,847 1554607 import_ops.py[line:37] Import static_op_speculate_verify from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:50:10,847 1554607 import_ops.py[line:37] Import static_op_step_paddle from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:50:10,847 1554607 import_ops.py[line:37] Import static_op_step_reschedule from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:50:10,847 1554607 import_ops.py[line:37] Import static_op_step_system_cache from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:50:10,847 1554607 import_ops.py[line:37] Import static_op_swap_cache from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:50:10,847 1554607 import_ops.py[line:37] Import static_op_swap_cache_all_layers from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:50:10,847 1554607 import_ops.py[line:37] Import static_op_top_p_candidates from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:50:10,847 1554607 import_ops.py[line:37] Import static_op_tune_cublaslt_gemm from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:50:10,847 1554607 import_ops.py[line:37] Import static_op_update_enf_gen_values from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:50:10,847 1554607 import_ops.py[line:37] Import static_op_update_inputs from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:50:10,847 1554607 import_ops.py[line:37] Import static_op_update_inputs_beam from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:50:10,847 1554607 import_ops.py[line:37] Import static_op_update_split_fuse_inputs from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:50:10,847 1554607 import_ops.py[line:37] Import update_inputs from fastdeploy.model_executor.ops.gpu
+DEBUG    2025-06-13 17:50:10,848 1554607 import_ops.py[line:37] Import LayerHelper from fastdeploy.model_executor.ops.cpu
+DEBUG    2025-06-13 17:50:10,848 1554607 import_ops.py[line:37] Import cur_dir from fastdeploy.model_executor.ops.cpu
+DEBUG    2025-06-13 17:50:10,848 1554607 import_ops.py[line:37] Import importlib from fastdeploy.model_executor.ops.cpu
+DEBUG    2025-06-13 17:50:10,848 1554607 import_ops.py[line:37] Import in_dynamic_or_pir_mode from fastdeploy.model_executor.ops.cpu
+DEBUG    2025-06-13 17:50:10,848 1554607 import_ops.py[line:37] Import os from fastdeploy.model_executor.ops.cpu
+DEBUG    2025-06-13 17:50:10,848 1554607 import_ops.py[line:37] Import paddle from fastdeploy.model_executor.ops.cpu
+DEBUG    2025-06-13 17:50:10,848 1554607 import_ops.py[line:37] Import so_path from fastdeploy.model_executor.ops.cpu
+DEBUG    2025-06-13 17:50:10,848 1554607 import_ops.py[line:37] Import static_op_get_output from fastdeploy.model_executor.ops.cpu
+DEBUG    2025-06-13 17:50:10,848 1554607 import_ops.py[line:37] Import static_op_get_output_dynamic from fastdeploy.model_executor.ops.cpu
+DEBUG    2025-06-13 17:50:10,848 1554607 import_ops.py[line:37] Import static_op_get_output_topk from fastdeploy.model_executor.ops.cpu
+DEBUG    2025-06-13 17:50:10,848 1554607 import_ops.py[line:37] Import static_op_reset_stop_value from fastdeploy.model_executor.ops.cpu
+DEBUG    2025-06-13 17:50:10,848 1554607 import_ops.py[line:37] Import static_op_save_output from fastdeploy.model_executor.ops.cpu
+DEBUG    2025-06-13 17:50:10,848 1554607 import_ops.py[line:37] Import static_op_save_output_dynamic from fastdeploy.model_executor.ops.cpu
+DEBUG    2025-06-13 17:50:10,848 1554607 import_ops.py[line:37] Import static_op_transfer_output from fastdeploy.model_executor.ops.cpu
+DEBUG    2025-06-13 17:50:10,848 1554607 import_ops.py[line:37] Import sys from fastdeploy.model_executor.ops.cpu
+DEBUG    2025-06-13 17:50:10,848 1554607 import_ops.py[line:37] Import types from fastdeploy.model_executor.ops.cpu
+DEBUG    2025-06-13 17:50:10,848 1554607 import_ops.py[line:37] Import unified from fastdeploy.model_executor.ops.cpu
+[33mWARNING  2025-06-13 17:50:10,848 1554607 import_ops.py[line:44] Ops of fastdeploy.model_executor.ops.cpu import failed, it may be not compiled.[0m
+[33mWARNING  2025-06-13 17:50:10,849 1554607 import_ops.py[line:44] Ops of fastdeploy.model_executor.ops.xpu import failed, it may be not compiled.[0m
+[33mWARNING  2025-06-13 17:50:10,849 1554607 import_ops.py[line:44] Ops of fastdeploy.model_executor.ops.npu import failed, it may be not compiled.[0m
+INFO     2025-06-13 17:52:04,571 1554607 config.py[line:240] Reset block num, the total_block_num:136, prefill_kvcache_block_num:102
+INFO     2025-06-13 17:52:04,572 1554607 local_scheduler.py[line:112] Scheduler has put some requests: ['7b9b1ff1-57e4-45f8-8184-0b83ba247670']
+INFO     2025-06-13 17:52:04,572 1554607 engine.py[line:368] Cache task with request_id (7b9b1ff1-57e4-45f8-8184-0b83ba247670)
+DEBUG    2025-06-13 17:52:04,572 1554607 engine.py[line:370] cache task: Request(request_id=7b9b1ff1-57e4-45f8-8184-0b83ba247670, prompt='The largest ocean is', prompt_token_ids=[100273, 2969, 93963, 93919, 700, 12145, 30559, 357, 23, 92267, 93963, 93919], sampling_params=SamplingParams(n=1, best_of=None, presence_penalty=0.0, frequency_penalty=0.0, repetition_penalty=1.0, temperature=0.1, top_p=0.95, seed=192224144590098200, stop=None, stop_token_ids=None, max_tokens=2, min_tokens=1, logprobs=None, bad_words=None))
+INFO     2025-06-13 17:52:04,573 1554607 local_scheduler.py[line:166] Scheduler has pulled some request: ['7b9b1ff1-57e4-45f8-8184-0b83ba247670']
+DEBUG    2025-06-13 17:52:04,578 1554607 resource_manager.py[line:133] dispatch 3 blocks.
+INFO     2025-06-13 17:52:04,584 1554607 resource_manager.py[line:228] Allocate request: 7b9b1ff1-57e4-45f8-8184-0b83ba247670, allocated_position:0, length of prompt token: 12
+INFO     2025-06-13 17:52:04,589 1554607 resource_manager.py[line:240] Number of allocated requests: 1, number of running requests in worker: 1
+INFO     2025-06-13 17:52:04,595 1554607 resource_manager.py[line:242] ResourceManager info, total_block_number: 102, total_batch_number: 8, available_block_num: 99, available_batch: 7
+INFO     2025-06-13 17:52:04,600 1554607 engine.py[line:415] Tasks are sent to engine, req_ids=['7b9b1ff1-57e4-45f8-8184-0b83ba247670']
+DEBUG    2025-06-13 17:52:07,200 1554607 llm.py[line:272] Send result to client under push mode: RequestOutput(request_id=7b9b1ff1-57e4-45f8-8184-0b83ba247670, prompt=None, prompt_token_ids=[100273, 2969, 93963, 93919, 700, 12145, 30559, 357, 23, 92267, 93963, 93919], outputs=CompletionOutput(index=0, text='boom', token_ids=[79045], reasoning_content=None, metrics=RequestMetrics(arrival_time=1749808324.5719538, inference_start_time=1749808324.5841503, first_token_time=2.615734815597534, time_in_queue=0.0059926509857177734, preprocess_cost_time=0.0004220008850097656, model_forward_time=None, model_execute_time=None, request_start_time=None), num_cached_tokens=0)
+INFO     2025-06-13 17:52:07,668 1554607 token_processor.py[line:230] Request: 7b9b1ff1-57e4-45f8-8184-0b83ba247670 finished, number of generated tokens: 2.
+INFO     2025-06-13 17:52:07,674 1554607 token_processor.py[line:233] Request: 7b9b1ff1-57e4-45f8-8184-0b83ba247670 token ratio: 0.647261794175637
+INFO     2025-06-13 17:52:07,680 1554607 token_processor.py[line:236] ResourceManager info, total_block_number: 102, total_batch_number: 8, available_block_num: 99, available_batch: 7
+INFO     2025-06-13 17:52:07,685 1554607 token_processor.py[line:237] Speculate accept ratio: 0.0 total step: 2. total_output_token_num: 2
+INFO     2025-06-13 17:52:07,691 1554607 resource_manager.py[line:146] recycle 3 blocks.
+INFO     2025-06-13 17:52:07,696 1554607 local_scheduler.py[line:180] Scheduler has received a finished response: ['7b9b1ff1-57e4-45f8-8184-0b83ba247670']
+INFO     2025-06-13 17:52:07,702 1554607 local_scheduler.py[line:220] Scheduler has pulled a finished response: ['7b9b1ff1-57e4-45f8-8184-0b83ba247670']
+DEBUG    2025-06-13 17:52:07,702 1554607 llm.py[line:272] Send result to client under push mode: RequestOutput(request_id=7b9b1ff1-57e4-45f8-8184-0b83ba247670, prompt='The largest ocean is', prompt_token_ids=[100273, 2969, 93963, 93919, 700, 12145, 30559, 357, 23, 92267, 93963, 93919], outputs=CompletionOutput(index=0, text='boom', token_ids=[79045, 2], reasoning_content=None, metrics=RequestMetrics(arrival_time=1749808324.5719538, inference_start_time=1749808324.5841503, first_token_time=2.615734815597534, time_in_queue=0.0059926509857177734, preprocess_cost_time=0.0004220008850097656, model_forward_time=3.084503173828125, model_execute_time=3.0966997146606445, request_start_time=None), num_cached_tokens=0)
+DEBUG    2025-06-13 17:52:07,702 1554607 llm.py[line:277] Request id: 7b9b1ff1-57e4-45f8-8184-0b83ba247670 has been completed.
