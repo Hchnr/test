@@ -1,0 +1,401 @@
+INFO 06-23 17:10:58 [__init__.py:244] Automatically detected platform cuda.
+================================================================================
+[h=16]
+=> test with ones.
+[vLLM & Paddle]:       16
+[vLLM & TorchFP32]:    16
+[vLLM & TorchBF16]:    16
+[Paddle & TorchFP32]:  16
+[Paddle & TorchBF16]:  16
+test with aragne.
+[vLLM & Paddle]:       11
+[vLLM & TorchFP32]:    16
+[vLLM & TorchBF16]:    11
+[Paddle & TorchFP32]:  11
+[Paddle & TorchBF16]:  16
+test with rand(0,1).
+[vLLM & Paddle]:       8
+[vLLM & TorchFP32]:    16
+[vLLM & TorchBF16]:    12
+[Paddle & TorchFP32]:  8
+[Paddle & TorchBF16]:  9
+================================================================================
+[h=64]
+=> test with ones.
+[vLLM & Paddle]:       64
+[vLLM & TorchFP32]:    64
+[vLLM & TorchBF16]:    64
+[Paddle & TorchFP32]:  64
+[Paddle & TorchBF16]:  64
+test with aragne.
+[vLLM & Paddle]:       54
+[vLLM & TorchFP32]:    64
+[vLLM & TorchBF16]:    57
+[Paddle & TorchFP32]:  54
+[Paddle & TorchBF16]:  51
+test with rand(0,1).
+[vLLM & Paddle]:       53
+[vLLM & TorchFP32]:    64
+[vLLM & TorchBF16]:    63
+[Paddle & TorchFP32]:  53
+[Paddle & TorchBF16]:  54
+================================================================================
+[h=16]
+=> test with ones.
+[vLLM & Paddle]:       16
+[vLLM & TorchFP32]:    16
+[vLLM & TorchBF16]:    16
+[Paddle & TorchFP32]:  16
+[Paddle & TorchBF16]:  16
+test with aragne.
+[vLLM & Paddle]:       11
+[vLLM & TorchFP32]:    16
+[vLLM & TorchBF16]:    11
+[Paddle & TorchFP32]:  11
+[Paddle & TorchBF16]:  16
+test with rand(0,1).
+[vLLM & Paddle]:       12
+[vLLM & TorchFP32]:    16
+[vLLM & TorchBF16]:    13
+[Paddle & TorchFP32]:  12
+[Paddle & TorchBF16]:  13
+================================================================================
+[h=64]
+=> test with ones.
+[vLLM & Paddle]:       64
+[vLLM & TorchFP32]:    64
+[vLLM & TorchBF16]:    64
+[Paddle & TorchFP32]:  64
+[Paddle & TorchBF16]:  64
+test with aragne.
+[vLLM & Paddle]:       54
+[vLLM & TorchFP32]:    64
+[vLLM & TorchBF16]:    57
+[Paddle & TorchFP32]:  54
+[Paddle & TorchBF16]:  51
+test with rand(0,1).
+[vLLM & Paddle]:       47
+[vLLM & TorchFP32]:    64
+[vLLM & TorchBF16]:    63
+[Paddle & TorchFP32]:  47
+[Paddle & TorchBF16]:  46
+================================================================================
+[h=16]
+=> test with ones.
+[vLLM & Paddle]:       16
+[vLLM & TorchFP32]:    16
+[vLLM & TorchBF16]:    16
+[Paddle & TorchFP32]:  16
+[Paddle & TorchBF16]:  16
+test with aragne.
+[vLLM & Paddle]:       11
+[vLLM & TorchFP32]:    16
+[vLLM & TorchBF16]:    11
+[Paddle & TorchFP32]:  11
+[Paddle & TorchBF16]:  16
+test with rand(0,1).
+[vLLM & Paddle]:       10
+[vLLM & TorchFP32]:    16
+[vLLM & TorchBF16]:    7
+[Paddle & TorchFP32]:  10
+[Paddle & TorchBF16]:  7
+================================================================================
+[h=64]
+=> test with ones.
+[vLLM & Paddle]:       64
+[vLLM & TorchFP32]:    64
+[vLLM & TorchBF16]:    64
+[Paddle & TorchFP32]:  64
+[Paddle & TorchBF16]:  64
+test with aragne.
+[vLLM & Paddle]:       54
+[vLLM & TorchFP32]:    64
+[vLLM & TorchBF16]:    57
+[Paddle & TorchFP32]:  54
+[Paddle & TorchBF16]:  51
+test with rand(0,1).
+[vLLM & Paddle]:       52
+[vLLM & TorchFP32]:    64
+[vLLM & TorchBF16]:    54
+[Paddle & TorchFP32]:  52
+[Paddle & TorchBF16]:  44
+================================================================================
+[h=16]
+=> test with ones.
+[vLLM & Paddle]:       16
+[vLLM & TorchFP32]:    16
+[vLLM & TorchBF16]:    16
+[Paddle & TorchFP32]:  16
+[Paddle & TorchBF16]:  16
+test with aragne.
+[vLLM & Paddle]:       11
+[vLLM & TorchFP32]:    16
+[vLLM & TorchBF16]:    11
+[Paddle & TorchFP32]:  11
+[Paddle & TorchBF16]:  16
+test with rand(0,1).
+[vLLM & Paddle]:       13
+[vLLM & TorchFP32]:    16
+[vLLM & TorchBF16]:    10
+[Paddle & TorchFP32]:  13
+[Paddle & TorchBF16]:  11
+================================================================================
+[h=64]
+=> test with ones.
+[vLLM & Paddle]:       64
+[vLLM & TorchFP32]:    64
+[vLLM & TorchBF16]:    64
+[Paddle & TorchFP32]:  64
+[Paddle & TorchBF16]:  64
+test with aragne.
+[vLLM & Paddle]:       54
+[vLLM & TorchFP32]:    64
+[vLLM & TorchBF16]:    57
+[Paddle & TorchFP32]:  54
+[Paddle & TorchBF16]:  51
+test with rand(0,1).
+[vLLM & Paddle]:       47
+[vLLM & TorchFP32]:    64
+[vLLM & TorchBF16]:    56
+[Paddle & TorchFP32]:  47
+[Paddle & TorchBF16]:  49
+================================================================================
+[h=16]
+=> test with ones.
+[vLLM & Paddle]:       16
+[vLLM & TorchFP32]:    16
+[vLLM & TorchBF16]:    16
+[Paddle & TorchFP32]:  16
+[Paddle & TorchBF16]:  16
+test with aragne.
+[vLLM & Paddle]:       11
+[vLLM & TorchFP32]:    16
+[vLLM & TorchBF16]:    11
+[Paddle & TorchFP32]:  11
+[Paddle & TorchBF16]:  16
+test with rand(0,1).
+[vLLM & Paddle]:       12
+[vLLM & TorchFP32]:    16
+[vLLM & TorchBF16]:    13
+[Paddle & TorchFP32]:  12
+[Paddle & TorchBF16]:  13
+================================================================================
+[h=64]
+=> test with ones.
+[vLLM & Paddle]:       64
+[vLLM & TorchFP32]:    64
+[vLLM & TorchBF16]:    64
+[Paddle & TorchFP32]:  64
+[Paddle & TorchBF16]:  64
+test with aragne.
+[vLLM & Paddle]:       54
+[vLLM & TorchFP32]:    64
+[vLLM & TorchBF16]:    57
+[Paddle & TorchFP32]:  54
+[Paddle & TorchBF16]:  51
+test with rand(0,1).
+[vLLM & Paddle]:       48
+[vLLM & TorchFP32]:    64
+[vLLM & TorchBF16]:    50
+[Paddle & TorchFP32]:  48
+[Paddle & TorchBF16]:  47
+================================================================================
+[h=16]
+=> test with ones.
+[vLLM & Paddle]:       16
+[vLLM & TorchFP32]:    16
+[vLLM & TorchBF16]:    16
+[Paddle & TorchFP32]:  16
+[Paddle & TorchBF16]:  16
+test with aragne.
+[vLLM & Paddle]:       11
+[vLLM & TorchFP32]:    16
+[vLLM & TorchBF16]:    11
+[Paddle & TorchFP32]:  11
+[Paddle & TorchBF16]:  16
+test with rand(0,1).
+[vLLM & Paddle]:       14
+[vLLM & TorchFP32]:    16
+[vLLM & TorchBF16]:    8
+[Paddle & TorchFP32]:  14
+[Paddle & TorchBF16]:  8
+================================================================================
+[h=64]
+=> test with ones.
+[vLLM & Paddle]:       64
+[vLLM & TorchFP32]:    64
+[vLLM & TorchBF16]:    64
+[Paddle & TorchFP32]:  64
+[Paddle & TorchBF16]:  64
+test with aragne.
+[vLLM & Paddle]:       54
+[vLLM & TorchFP32]:    64
+[vLLM & TorchBF16]:    57
+[Paddle & TorchFP32]:  54
+[Paddle & TorchBF16]:  51
+test with rand(0,1).
+[vLLM & Paddle]:       49
+[vLLM & TorchFP32]:    64
+[vLLM & TorchBF16]:    55
+[Paddle & TorchFP32]:  49
+[Paddle & TorchBF16]:  46
+================================================================================
+[h=16]
+=> test with ones.
+[vLLM & Paddle]:       16
+[vLLM & TorchFP32]:    16
+[vLLM & TorchBF16]:    16
+[Paddle & TorchFP32]:  16
+[Paddle & TorchBF16]:  16
+test with aragne.
+[vLLM & Paddle]:       11
+[vLLM & TorchFP32]:    16
+[vLLM & TorchBF16]:    11
+[Paddle & TorchFP32]:  11
+[Paddle & TorchBF16]:  16
+test with rand(0,1).
+[vLLM & Paddle]:       12
+[vLLM & TorchFP32]:    16
+[vLLM & TorchBF16]:    15
+[Paddle & TorchFP32]:  12
+[Paddle & TorchBF16]:  12
+================================================================================
+[h=64]
+=> test with ones.
+[vLLM & Paddle]:       64
+[vLLM & TorchFP32]:    64
+[vLLM & TorchBF16]:    64
+[Paddle & TorchFP32]:  64
+[Paddle & TorchBF16]:  64
+test with aragne.
+[vLLM & Paddle]:       54
+[vLLM & TorchFP32]:    64
+[vLLM & TorchBF16]:    57
+[Paddle & TorchFP32]:  54
+[Paddle & TorchBF16]:  51
+test with rand(0,1).
+[vLLM & Paddle]:       50
+[vLLM & TorchFP32]:    64
+[vLLM & TorchBF16]:    63
+[Paddle & TorchFP32]:  50
+[Paddle & TorchBF16]:  51
+================================================================================
+[h=16]
+=> test with ones.
+[vLLM & Paddle]:       16
+[vLLM & TorchFP32]:    16
+[vLLM & TorchBF16]:    16
+[Paddle & TorchFP32]:  16
+[Paddle & TorchBF16]:  16
+test with aragne.
+[vLLM & Paddle]:       11
+[vLLM & TorchFP32]:    16
+[vLLM & TorchBF16]:    11
+[Paddle & TorchFP32]:  11
+[Paddle & TorchBF16]:  16
+test with rand(0,1).
+[vLLM & Paddle]:       12
+[vLLM & TorchFP32]:    16
+[vLLM & TorchBF16]:    13
+[Paddle & TorchFP32]:  12
+[Paddle & TorchBF16]:  11
+================================================================================
+[h=64]
+=> test with ones.
+[vLLM & Paddle]:       64
+[vLLM & TorchFP32]:    64
+[vLLM & TorchBF16]:    64
+[Paddle & TorchFP32]:  64
+[Paddle & TorchBF16]:  64
+test with aragne.
+[vLLM & Paddle]:       54
+[vLLM & TorchFP32]:    64
+[vLLM & TorchBF16]:    57
+[Paddle & TorchFP32]:  54
+[Paddle & TorchBF16]:  51
+test with rand(0,1).
+[vLLM & Paddle]:       46
+[vLLM & TorchFP32]:    64
+[vLLM & TorchBF16]:    62
+[Paddle & TorchFP32]:  46
+[Paddle & TorchBF16]:  46
+================================================================================
+[h=16]
+=> test with ones.
+[vLLM & Paddle]:       16
+[vLLM & TorchFP32]:    16
+[vLLM & TorchBF16]:    16
+[Paddle & TorchFP32]:  16
+[Paddle & TorchBF16]:  16
+test with aragne.
+[vLLM & Paddle]:       11
+[vLLM & TorchFP32]:    16
+[vLLM & TorchBF16]:    11
+[Paddle & TorchFP32]:  11
+[Paddle & TorchBF16]:  16
+test with rand(0,1).
+[vLLM & Paddle]:       12
+[vLLM & TorchFP32]:    16
+[vLLM & TorchBF16]:    14
+[Paddle & TorchFP32]:  12
+[Paddle & TorchBF16]:  12
+================================================================================
+[h=64]
+=> test with ones.
+[vLLM & Paddle]:       64
+[vLLM & TorchFP32]:    64
+[vLLM & TorchBF16]:    64
+[Paddle & TorchFP32]:  64
+[Paddle & TorchBF16]:  64
+test with aragne.
+[vLLM & Paddle]:       54
+[vLLM & TorchFP32]:    64
+[vLLM & TorchBF16]:    57
+[Paddle & TorchFP32]:  54
+[Paddle & TorchBF16]:  51
+test with rand(0,1).
+[vLLM & Paddle]:       49
+[vLLM & TorchFP32]:    64
+[vLLM & TorchBF16]:    56
+[Paddle & TorchFP32]:  49
+[Paddle & TorchBF16]:  49
+================================================================================
+[h=16]
+=> test with ones.
+[vLLM & Paddle]:       16
+[vLLM & TorchFP32]:    16
+[vLLM & TorchBF16]:    16
+[Paddle & TorchFP32]:  16
+[Paddle & TorchBF16]:  16
+test with aragne.
+[vLLM & Paddle]:       11
+[vLLM & TorchFP32]:    16
+[vLLM & TorchBF16]:    11
+[Paddle & TorchFP32]:  11
+[Paddle & TorchBF16]:  16
+test with rand(0,1).
+[vLLM & Paddle]:       14
+[vLLM & TorchFP32]:    16
+[vLLM & TorchBF16]:    12
+[Paddle & TorchFP32]:  14
+[Paddle & TorchBF16]:  10
+================================================================================
+[h=64]
+=> test with ones.
+[vLLM & Paddle]:       64
+[vLLM & TorchFP32]:    64
+[vLLM & TorchBF16]:    64
+[Paddle & TorchFP32]:  64
+[Paddle & TorchBF16]:  64
+test with aragne.
+[vLLM & Paddle]:       54
+[vLLM & TorchFP32]:    64
+[vLLM & TorchBF16]:    57
+[Paddle & TorchFP32]:  54
+[Paddle & TorchBF16]:  51
+test with rand(0,1).
+[vLLM & Paddle]:       45
+[vLLM & TorchFP32]:    64
+[vLLM & TorchBF16]:    62
+[Paddle & TorchFP32]:  45
+[Paddle & TorchBF16]:  43
