@@ -1,5 +1,3 @@
-set -ex
-
 # 1. no frozen
 export FROZEN=0 FROZEN_LAYER=0 FROZEN_REQUIRE_GRAD=0 FROZEN_FILER_OPTIMIZER=0 FROZEN_NO_GRAD=0
 python ./train_freeze.py > ./output/1.out 2>&1
