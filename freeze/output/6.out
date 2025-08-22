@@ -1,0 +1,22 @@
+FROZEN='1',FROZEN_LAYER='0',FROZEN_REQUIRE_GRAD='0',FROZEN_FILER_OPTIMIZER='0',FROZEN_NO_GRAD='1'
+freeze:  linears.0.weight
+freeze:  linears.0.bias
+--------------------
+Params before train:
+linears.0.weight: 0.4179
+linears.0.bias: -0.1332
+linears.1.weight: 0.1753
+linears.1.bias: -0.7506
+--------------------
+Traceback (most recent call last):
+  File "/share/project/hcr/repos/test_gh/test/freeze/./train_freeze.py", line 73, in <module>
+    loss.backward()        # 反向传播计算梯度
+    ^^^^^^^^^^^^^^^
+  File "/root/miniconda3/envs/lerobot/lib/python3.12/site-packages/torch/_tensor.py", line 647, in backward
+    torch.autograd.backward(
+  File "/root/miniconda3/envs/lerobot/lib/python3.12/site-packages/torch/autograd/__init__.py", line 354, in backward
+    _engine_run_backward(
+  File "/root/miniconda3/envs/lerobot/lib/python3.12/site-packages/torch/autograd/graph.py", line 829, in _engine_run_backward
+    return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: element 0 of tensors does not require grad and does not have a grad_fn

@@ -7,9 +7,9 @@ import torch.optim as optim
 import numpy as np
 
 FROZEN = os.getenv("FROZEN", 0)
-FROZEN_REQUIRE_GRAD = os.getenv("REQUIRE_GRAD", 0)
-FROZEN_FILER_OPTIMIZER = os.getenv("REQUIRE_GRAD", 0)
-FROZEN_NO_GRAD = os.getenv("NO_GRAD", 0)
+FROZEN_REQUIRE_GRAD = os.getenv("FROZEN_REQUIRE_GRAD", 0)
+FROZEN_FILER_OPTIMIZER = os.getenv("FROZEN_FILER_OPTIMIZER", 0)
+FROZEN_NO_GRAD = os.getenv("FROZEN_NO_GRAD", 0)
 FROZEN_LAYER = os.getenv("FROZEN_LAYER", 0)
 N_LAYER = 2
 
