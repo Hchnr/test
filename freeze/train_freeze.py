@@ -3,6 +3,7 @@ import torch.nn as nn
 import torch.optim as optim
 import numpy as np
 
+N_LAYER = 2
 
 np.random.seed(42)
 x = np.random.rand(100, 1) * 10  # 100个0-10之间的随机数
@@ -14,15 +15,17 @@ y_tensor = torch.tensor(y, dtype=torch.float32)
 class LinearModel(nn.Module):
     def __init__(self):
         super().__init__()
-        # 输入维度1，输出维度1的线性层
-        self.linear = nn.Linear(in_features=1, out_features=1)
+        self.linears = nn.ModuleList([nn.Linear(in_features=1, out_features=1) for _ in range(N_LAYER)])
     
     def forward(self, x):
-        return self.linear(x)
+        for linear in self.linears:
+            x = linear(x)
+        return x
 
 model = LinearModel()
 criterion = nn.MSELoss()  # 均方误差损失
 optimizer = optim.SGD(model.parameters(), lr=0.01)  # 随机梯度下降优化器
+
 
 print("-" * 80)
 print("Params before train:")
