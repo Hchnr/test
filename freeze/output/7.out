@@ -1,15 +1,13 @@
-FROZEN='1',FROZEN_LAYER='1',FROZEN_REQUIRE_GRAD='0',FROZEN_FILER_OPTIMIZER='0',FROZEN_NO_GRAD='1'
-freeze:  linears.1.weight
-freeze:  linears.1.bias
+FROZEN=1,FROZEN_LAYER=1,FROZEN_REQUIRE_GRAD=0,FROZEN_FILER_OPTIMIZER=0,FROZEN_NO_GRAD=1
 --------------------
 Params before train:
-linears.0.weight: 0.1727
-linears.0.bias: 0.5803
-linears.1.weight: -0.3938
-linears.1.bias: -0.1895
+linears.0.weight: -0.8016
+linears.0.bias: -0.2637
+linears.1.weight: 0.0545
+linears.1.bias: -0.9706
 --------------------
 Traceback (most recent call last):
-  File "/share/project/hcr/repos/test_gh/test/freeze/./train_freeze.py", line 73, in <module>
+  File "/share/project/hcr/repos/test_gh/test/freeze/./train_freeze.py", line 75, in <module>
     loss.backward()        # 反向传播计算梯度
     ^^^^^^^^^^^^^^^
   File "/root/miniconda3/envs/lerobot/lib/python3.12/site-packages/torch/_tensor.py", line 647, in backward

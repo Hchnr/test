@@ -6,11 +6,11 @@ import torch.nn as nn
 import torch.optim as optim
 import numpy as np
 
-FROZEN = os.getenv("FROZEN", 0)
-FROZEN_REQUIRE_GRAD = os.getenv("FROZEN_REQUIRE_GRAD", 0)
-FROZEN_FILER_OPTIMIZER = os.getenv("FROZEN_FILER_OPTIMIZER", 0)
-FROZEN_NO_GRAD = os.getenv("FROZEN_NO_GRAD", 0)
-FROZEN_LAYER = os.getenv("FROZEN_LAYER", 0)
+FROZEN = int(os.getenv("FROZEN", 0))
+FROZEN_REQUIRE_GRAD = int(os.getenv("FROZEN_REQUIRE_GRAD", 0))
+FROZEN_FILER_OPTIMIZER = int(os.getenv("FROZEN_FILER_OPTIMIZER", 0))
+FROZEN_NO_GRAD = int(os.getenv("FROZEN_NO_GRAD", 0))
+FROZEN_LAYER = int(os.getenv("FROZEN_LAYER", 0))
 N_LAYER = 2
 
 print(f"{FROZEN=},{FROZEN_LAYER=},{FROZEN_REQUIRE_GRAD=},{FROZEN_FILER_OPTIMIZER=},{FROZEN_NO_GRAD=}")
@@ -51,10 +51,12 @@ if FROZEN and FROZEN_REQUIRE_GRAD:
             print("freeze: ", n)
 
 criterion = nn.MSELoss()  # 均方误差损失
-opt_params = model.parameters()
+
 if FROZEN_FILER_OPTIMIZER:
     opt_params = [p for p in model.parameters() if p.requires_grad]
-optimizer = optim.SGD(opt_params, lr=0.01)  # 随机梯度下降优化器
+else:
+    opt_params = model.parameters()
+optimizer = optim.SGD(opt_params, lr=0.01)
 
 
 print("-" * 20)
